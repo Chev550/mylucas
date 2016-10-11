@@ -17,7 +17,7 @@ body {
 	width: 100%;
 	font-size: 14px;
 	line-height: 1.5em;
-	font-family: "Comic Sans MS", "Titillium Web", sans-serif;
+	font-family: Garamond, "Comic Sans MS", sans-serif;
 }
 
 blockquote {
@@ -528,4 +528,8 @@ a {
 	text-align: center;
 	font-size: 13px;
 	padding-top: 0.5em; 
+}
+
+#autotext {
+	border-bottom: 1px dotted gray;
 }
