@@ -2,14 +2,4 @@ title: Lucas Li
 description: A simple Jekyll theme
 baseurl: /lucasli
 google_analytics: # google analytics id
-disqus_shortname: # disqus_shortname for disqus comment system
-
-# Content for about page.
-# Each paragraph will be a <p> tag which is inserted to about
-# page. text_align is used to align the text. Default is left.
-# Other two values are center and right. If there are some links
-# in your paragraph, use '?link?' to take the place of a link.
-# And then write the real link under links. name is the link
-# text. url is the link. when external is set as true, then
-# a new whidow will be open when link is clicked.
-#
+disqus_shortname: lucaslionline

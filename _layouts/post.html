@@ -31,12 +31,6 @@ layout: default
 		<span>{{ page.date | date: "%Y-%m-%d" }}</span>
 	</div>
 
-	<!-- post content -->
-	{% if page.tags contains 'chinese' %}
-	{% assign type = 'chinese' %}
-	{% else %}
-	{% assign type = 'english' %}
-	{% endif %}
 
 	<div class="post-content {{ type }}">
 		{{ content }}
