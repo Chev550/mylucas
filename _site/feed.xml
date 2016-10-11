@@ -5,8 +5,8 @@
 		<description>A simple Jekyll theme</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Tue, 11 Oct 2016 22:53:22 +0800</pubDate>
-		<lastBuildDate>Tue, 11 Oct 2016 22:53:22 +0800</lastBuildDate>
+		<pubDate>Tue, 11 Oct 2016 23:34:55 +0800</pubDate>
+		<lastBuildDate>Tue, 11 Oct 2016 23:34:55 +0800</lastBuildDate>
 		<generator>Jekyll v3.0.0</generator>
 		
 		<item>
@@ -37,7 +37,7 @@
 
 &lt;h2 id=&quot;bists-configuration&quot;&gt;BISTS configuration&lt;/h2&gt;
 
-&lt;p&gt;The BISTS louvers are assumed to be installed horizontally on the south facade and vertically on the east and west facades (&lt;a href=&quot;#fig2&quot;&gt;Fig. 2&lt;/a&gt;). Parametric study has been conducted to propose a final BISTS design, in which the total BISTS depth &lt;code&gt;d&lt;/code&gt;, the height above the window &lt;code&gt;h&lt;/code&gt;, the shading-to-window ratio &lt;code&gt;r&lt;/code&gt;, and the slat angle &lt;code&gt;θ&lt;/code&gt; were discussed and determined by leveraging building energy consumption and daylight provision. Various &lt;code&gt;d-h-θ&lt;/code&gt; and &lt;code&gt;r-θ&lt;/code&gt; combinations were investigated.&lt;/p&gt;
+&lt;p&gt;The BISTS louvers are assumed to be installed horizontally on the south facade and vertically on the east and west facades (&lt;a href=&quot;#fig2&quot;&gt;Fig. 2&lt;/a&gt;). Parametric study has been conducted to propose a final BISTS design, in which the total BISTS depth &lt;em&gt;d&lt;/em&gt;, the height above the window &lt;em&gt;h&lt;/em&gt;, the shading-to-window ratio &lt;em&gt;r&lt;/em&gt;, and the slat angle &lt;em&gt;θ&lt;/em&gt; were discussed and determined by leveraging building energy consumption and daylight provision. Various &lt;em&gt;d-h-θ&lt;/em&gt; and &lt;em&gt;r-θ&lt;/em&gt; combinations were investigated.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&quot;fig2&quot;&gt;&lt;/a&gt;
 &lt;img src=&quot;/assets/img/blog/fig_2.jpg&quot; alt=&quot;BISTS configuration.&quot; /&gt;&lt;/p&gt;
@@ -50,7 +50,7 @@
 
 &lt;h2 id=&quot;daylight-provision&quot;&gt;Daylight provision&lt;/h2&gt;
 
-&lt;p&gt;The BISTS system improves the interior useful daylight level and reduces the excessive daylight level for a single perimeter room. However, some vertical cases with high shading-to-window ratios and large slat angles cannot benefit the useful daylight, which should be avoided for applications. The BISTS system also changes the illuminance distribution on the work plane, especially for the east and west installations. The final proposed design could increase the &lt;code&gt;UDI500–1000&lt;/code&gt; value by 2.1% (south), 28.5% (east), and 21.6% (west), and reduce the &lt;code&gt;UDI&amp;gt;2000&lt;/code&gt; value by 5.8% (south), 26.1% (east), and 27.0% (west).&lt;/p&gt;
+&lt;p&gt;The BISTS system improves the interior useful daylight level and reduces the excessive daylight level for a single perimeter room. However, some vertical cases with high shading-to-window ratios and large slat angles cannot benefit the useful daylight, which should be avoided for applications. The BISTS system also changes the illuminance distribution on the work plane, especially for the east and west installations. The final proposed design could increase the &lt;em&gt;UDI500–1000&lt;/em&gt; value by 2.1% (south), 28.5% (east), and 21.6% (west), and reduce the &lt;em&gt;UDI&amp;gt;2000&lt;/em&gt; value by 5.8% (south), 26.1% (east), and 27.0% (west).&lt;/p&gt;
 
 &lt;h2 id=&quot;solar-usage&quot;&gt;Solar usage&lt;/h2&gt;
 

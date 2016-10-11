@@ -18,7 +18,7 @@ Building integrated solar thermal shading (BISTS) system is a new type of solar 
 BISTS configuration
 -------------------
 
-The BISTS louvers are assumed to be installed horizontally on the south facade and vertically on the east and west facades (<a href="#fig2">Fig. 2</a>). Parametric study has been conducted to propose a final BISTS design, in which the total BISTS depth `d`, the height above the window `h`, the shading-to-window ratio `r`, and the slat angle `θ` were discussed and determined by leveraging building energy consumption and daylight provision. Various `d-h-θ` and `r-θ` combinations were investigated.
+The BISTS louvers are assumed to be installed horizontally on the south facade and vertically on the east and west facades (<a href="#fig2">Fig. 2</a>). Parametric study has been conducted to propose a final BISTS design, in which the total BISTS depth _d_, the height above the window _h_, the shading-to-window ratio _r_, and the slat angle _θ_ were discussed and determined by leveraging building energy consumption and daylight provision. Various _d-h-θ_ and _r-θ_ combinations were investigated.
 
 <a name="fig2"></a>
 ![BISTS configuration.]({{ site.baseurl }}/assets/img/blog/fig_2.jpg)
@@ -38,7 +38,7 @@ The BISTS system helps to reduce the building energy consumption. The savings va
 Daylight provision
 ------------------
 
-The BISTS system improves the interior useful daylight level and reduces the excessive daylight level for a single perimeter room. However, some vertical cases with high shading-to-window ratios and large slat angles cannot benefit the useful daylight, which should be avoided for applications. The BISTS system also changes the illuminance distribution on the work plane, especially for the east and west installations. The final proposed design could increase the `UDI500–1000` value by 2.1% (south), 28.5% (east), and 21.6% (west), and reduce the `UDI>2000` value by 5.8% (south), 26.1% (east), and 27.0% (west).
+The BISTS system improves the interior useful daylight level and reduces the excessive daylight level for a single perimeter room. However, some vertical cases with high shading-to-window ratios and large slat angles cannot benefit the useful daylight, which should be avoided for applications. The BISTS system also changes the illuminance distribution on the work plane, especially for the east and west installations. The final proposed design could increase the _UDI500–1000_ value by 2.1% (south), 28.5% (east), and 21.6% (west), and reduce the _UDI>2000_ value by 5.8% (south), 26.1% (east), and 27.0% (west).
 
 
 
