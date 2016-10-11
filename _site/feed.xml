@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Lucas Li</title>
-    <description>A simple Jekyll theme</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 19:26:59 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 19:26:59 +0800</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
-    
-      <item>
-        <title>If I Stay</title>
-        <description>&lt;p&gt;Don’t you ever question why I’m by your side / I’m here when you cry because he told you lies so slyly / I run my fingers through your hair and show I care / But I’m not the one that your heart belongs to nightly.&lt;/p&gt;
+	<channel>
+		<title>Lucas Li</title>
+		<description>A simple Jekyll theme</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+		<pubDate>Tue, 11 Oct 2016 19:33:18 +0800</pubDate>
+		<lastBuildDate>Tue, 11 Oct 2016 19:33:18 +0800</lastBuildDate>
+		<generator>Jekyll v3.0.0</generator>
+		
+		<item>
+			<title>If I Stay</title>
+			<description>&lt;p&gt;Don’t you ever question why I’m by your side / I’m here when you cry because he told you lies so slyly / I run my fingers through your hair and show I care / But I’m not the one that your heart belongs to nightly.&lt;/p&gt;
 
 &lt;p&gt;I love you without regret since the day we met / If what you see’s what you get / Well I’ve had nothing yet for these past years / Tell me will you ever feel the same if my love won’t tame / Or just like cellophane / Will I call your name unto deaf ears?&lt;/p&gt;
 
@@ -21,16 +21,16 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/img_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 02 Jul 2016 00:00:00 +0800</pubDate>
-        <link>/2016/07/02/if-i-stay.html</link>
-        <guid isPermaLink="true">/2016/07/02/if-i-stay.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Building Integrated Solar Thermal Shading Application</title>
-        <description>&lt;p&gt;Building integrated solar thermal shading (BISTS) system is a new type of solar thermal application that potentially replaces traditional building exterior shading devices with small-sized solar thermal collectors for thermal heat generation, solar gain reduction, and glare protection. This research evaluated the performance of the BISTS system based on a medium office building in Los Angeles (&lt;a href=&quot;#fig1&quot;&gt;Fig. 1&lt;/a&gt;), thus to help streamline the product design and system configuration.&lt;/p&gt;
+			<pubDate>Sat, 02 Jul 2016 00:00:00 +0800</pubDate>
+			<link>/2016/07/02/if-i-stay.html</link>
+			<guid isPermaLink="true">/2016/07/02/if-i-stay.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Building Integrated Solar Thermal Shading Application</title>
+			<description>&lt;p&gt;Building integrated solar thermal shading (BISTS) system is a new type of solar thermal application that potentially replaces traditional building exterior shading devices with small-sized solar thermal collectors for thermal heat generation, solar gain reduction, and glare protection. This research evaluated the performance of the BISTS system based on a medium office building in Los Angeles (&lt;a href=&quot;#fig1&quot;&gt;Fig. 1&lt;/a&gt;), thus to help streamline the product design and system configuration.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&quot;fig1&quot;&gt;&lt;/a&gt;
 &lt;img src=&quot;/assets/img/blog/fig_1.jpg&quot; alt=&quot;Medium office building with BISTS application.&quot; /&gt;&lt;/p&gt;
@@ -70,16 +70,16 @@
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Mon, 15 Jun 2015 00:00:00 +0800</pubDate>
-        <link>/2015/06/15/building-integrated-solar-thermal-application.html</link>
-        <guid isPermaLink="true">/2015/06/15/building-integrated-solar-thermal-application.html</guid>
-        
-        <category>building</category>
-        
-        <category>solar</category>
-        
-        
-      </item>
-    
-  </channel>
+			<pubDate>Mon, 15 Jun 2015 00:00:00 +0800</pubDate>
+			<link>/2015/06/15/building-integrated-solar-thermal-application.html</link>
+			<guid isPermaLink="true">/2015/06/15/building-integrated-solar-thermal-application.html</guid>
+			
+			<category>building</category>
+			
+			<category>solar</category>
+			
+			
+		</item>
+		
+	</channel>
 </rss>
