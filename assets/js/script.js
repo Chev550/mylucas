@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// auto text
-	var texts = ["architectural engineer", "web developer", "art lover", "lifelong learner"];
+	var texts = ["web developer", "art lover", "lifelong learner", "architectural engineer"];
 	var iText = 0;
 	var timer = setInterval(function(){
 		$('span#autotext').hide();
