@@ -5,8 +5,8 @@
 		<description>A simple Jekyll theme</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Thu, 13 Oct 2016 08:14:20 +0800</pubDate>
-		<lastBuildDate>Thu, 13 Oct 2016 08:14:20 +0800</lastBuildDate>
+		<pubDate>Thu, 13 Oct 2016 10:15:21 +0800</pubDate>
+		<lastBuildDate>Thu, 13 Oct 2016 10:15:21 +0800</lastBuildDate>
 		<generator>Jekyll v3.0.0</generator>
 		
 		<item>
@@ -24,6 +24,23 @@
 			<pubDate>Sat, 02 Jul 2016 00:00:00 +0800</pubDate>
 			<link>/2016/07/02/if-i-stay.html</link>
 			<guid isPermaLink="true">/2016/07/02/if-i-stay.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Dan Stevens</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/dan_stevens_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/dan_stevens_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 10.5” x 11.5”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.dan-stevens.co.uk&quot;&gt;http://www.dan-stevens.co.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+			<pubDate>Fri, 11 Sep 2015 00:00:00 +0800</pubDate>
+			<link>/2015/09/11/dan-stevens.html</link>
+			<guid isPermaLink="true">/2015/09/11/dan-stevens.html</guid>
 			
 			
 		</item>
@@ -77,6 +94,71 @@
 			<category>building</category>
 			
 			<category>solar</category>
+			
+			
+		</item>
+		
+		<item>
+			<title>Bowing to Him</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/bowing_to_him_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/bowing_to_him_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 30” x 20”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2nd Place&lt;/strong&gt; Winner of the Oakton Foundation &lt;a href=&quot;http://www.oaktonfoundation.com/#!visual-arts-competition/c1dzm&quot;&gt;Visual Arts Competition&lt;/a&gt;, Fall 2014&lt;/p&gt;
+
+</description>
+			<pubDate>Sat, 28 Feb 2015 00:00:00 +0800</pubDate>
+			<link>/2015/02/28/bowing-to-him.html</link>
+			<guid isPermaLink="true">/2015/02/28/bowing-to-him.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Parker Ellis</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/parker_ellis_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/parker_ellis_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 11.5” x 12.5”&lt;/p&gt;
+</description>
+			<pubDate>Sat, 04 Oct 2014 00:00:00 +0800</pubDate>
+			<link>/2014/10/04/parker-ellis.html</link>
+			<guid isPermaLink="true">/2014/10/04/parker-ellis.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Leonardo Dicaprio</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/leonardo_dicaprio_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/leonardo_dicaprio_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 11.5” x 10.5”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://leonardodicaprio.com&quot;&gt;http://leonardodicaprio.com&lt;/a&gt;&lt;/p&gt;
+</description>
+			<pubDate>Fri, 18 Jul 2014 00:00:00 +0800</pubDate>
+			<link>/2014/07/18/leonardo-dicaprio.html</link>
+			<guid isPermaLink="true">/2014/07/18/leonardo-dicaprio.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Brokeback Mountain</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/brokeback_mountain_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/brokeback_mountain_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 18” x 12”&lt;/p&gt;
+</description>
+			<pubDate>Thu, 05 Jun 2014 00:00:00 +0800</pubDate>
+			<link>/2014/06/05/brokeback-mountain.html</link>
+			<guid isPermaLink="true">/2014/06/05/brokeback-mountain.html</guid>
 			
 			
 		</item>
