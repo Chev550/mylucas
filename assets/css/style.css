@@ -455,8 +455,7 @@ a {
 }
 
 
-.post-content a,
-.post-nav a {
+.post-content a {
 	color: #6599ff;
 	text-decoration: none;
 	-webkit-transition: border .5s;
@@ -465,8 +464,7 @@ a {
 }
 
 
-.post-content a:hover,
-.post-nav a:hover {
+.post-content a:hover {
 	border-bottom: 1px dotted gray;
 }
 
