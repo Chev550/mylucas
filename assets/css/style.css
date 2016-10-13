@@ -187,6 +187,7 @@ a {
 /* =======================
  * post layout
  * ======================= */
+.resume-wrapper,
 .post-wrapper {
 	background-color: #f8f8f8;
 	overflow-x: hidden;
@@ -356,8 +357,9 @@ a {
 
 /* post */
 .post-header {
-	padding: 1.5em;
+	padding: 2em;
 	border-bottom: 1px solid #e6e6e6;
+	background-color: white;
 }
 
 .post-header h1 {
@@ -366,9 +368,10 @@ a {
 }
 
 .post-content {
-	padding-right: 2em;
-	padding-left: 2em;
+	padding: 1em 2em;
+	background-color: white;
 }
+
 
 .post-nav {
 	border-top: 1px solid #e6e6e6;
@@ -376,6 +379,7 @@ a {
 	padding: 2em;
 	text-align: center;
 	font-size: 13px;
+	background-color: white;
 }
 
 .post-nav-sep {
@@ -431,7 +435,7 @@ a {
 	}
 
 	.post-content {
-		padding: 14px 40px;
+		padding: 1em 3em;
 		border-bottom: 1px solid #e6e6e6;
 	}
 
@@ -451,7 +455,8 @@ a {
 }
 
 
-.post-content a {
+.post-content a,
+.post-nav a {
 	color: #6599ff;
 	text-decoration: none;
 	-webkit-transition: border .5s;
@@ -460,7 +465,8 @@ a {
 }
 
 
-.post-content a:hover {
+.post-content a:hover,
+.post-nav a:hover {
 	border-bottom: 1px dotted gray;
 }
 
@@ -534,4 +540,10 @@ a {
 
 #autotext {
 	border-bottom: 1px dotted gray;
+}
+.as-p {
+	margin: 1em 0;
+}
+.as-p ul {
+	margin: 0;
 }
