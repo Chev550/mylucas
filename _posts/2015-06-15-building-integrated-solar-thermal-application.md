@@ -61,4 +61,4 @@ Publications
 > This project was directed by __Dr. Ming Qu__ (Purdue University), and sponsored by __Dr. Steve Peng__ (Taiwan Ziolar Technology Co. Ltd).
 
 
-[pub1]: {{ site.baseurl }}/documents/Publication_1.pdf
+[pub1]: {{ site.baseurl }}/assets/doc/Publication_1.pdf

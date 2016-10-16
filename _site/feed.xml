@@ -5,8 +5,8 @@
 		<description>A simple Jekyll theme</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Sun, 16 Oct 2016 20:54:42 +0800</pubDate>
-		<lastBuildDate>Sun, 16 Oct 2016 20:54:42 +0800</lastBuildDate>
+		<pubDate>Sun, 16 Oct 2016 21:22:58 +0800</pubDate>
+		<lastBuildDate>Sun, 16 Oct 2016 21:22:58 +0800</lastBuildDate>
 		<generator>Jekyll v3.0.0</generator>
 		
 		<item>
@@ -76,7 +76,7 @@
 &lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;L. Li, M. Qu, S. Peng, &lt;a href=&quot;/documents/Publication_1.pdf&quot;&gt;Performance evaluation of building integrated solar thermal shading system: building energy consumption and daylight provision&lt;/a&gt;, Energy and Buildings 113 (2016) 189–201.&lt;/li&gt;
+  &lt;li&gt;L. Li, M. Qu, S. Peng, &lt;a href=&quot;/assets/doc/Publication_1.pdf&quot;&gt;Performance evaluation of building integrated solar thermal shading system: building energy consumption and daylight provision&lt;/a&gt;, Energy and Buildings 113 (2016) 189–201.&lt;/li&gt;
   &lt;li&gt;L. Li, M. Qu, S. Peng, Performance evaluation of building integrated solar thermal shading system: active solar energy usage, Energy and Buildings (under review).&lt;/li&gt;
 &lt;/ol&gt;
 
