@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Lucas Li</title>
+		<description>A simple Jekyll theme</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+		<pubDate>Fri, 30 Dec 2016 20:10:17 +0800</pubDate>
+		<lastBuildDate>Fri, 30 Dec 2016 20:10:17 +0800</lastBuildDate>
+		<generator>Jekyll v3.0.0</generator>
+		
+		<item>
+			<title>Dan Stevens</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/dan_stevens_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/dan_stevens_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 10.5” x 11.5”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.dan-stevens.co.uk&quot;&gt;http://www.dan-stevens.co.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+			<pubDate>Fri, 11 Sep 2015 00:00:00 +0800</pubDate>
+			<link>/2015/09/11/dan-stevens.html</link>
+			<guid isPermaLink="true">/2015/09/11/dan-stevens.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Building Integrated Solar Thermal Shading Application</title>
+			<description>&lt;p&gt;Building integrated solar thermal shading (BISTS) system is a new type of solar thermal application that potentially replaces traditional building exterior shading devices with small-sized solar thermal collectors for thermal heat generation, solar gain reduction, and glare protection. This research evaluated the performance of the BISTS system based on a medium office building in Los Angeles (&lt;a href=&quot;#fig1&quot;&gt;Fig. 1&lt;/a&gt;), thus to help streamline the product design and system configuration.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;fig1&quot;&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/img/blog/fig_1.jpg&quot; alt=&quot;Medium office building with BISTS application.&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bists-configuration&quot;&gt;BISTS configuration&lt;/h2&gt;
+
+&lt;p&gt;The BISTS louvers are assumed to be installed horizontally on the south facade and vertically on the east and west facades (&lt;a href=&quot;#fig2&quot;&gt;Fig. 2&lt;/a&gt;). Parametric study has been conducted to propose a final BISTS design, in which the total BISTS depth &lt;em&gt;d&lt;/em&gt;, the height above the window &lt;em&gt;h&lt;/em&gt;, the shading-to-window ratio &lt;em&gt;r&lt;/em&gt;, and the slat angle &lt;em&gt;θ&lt;/em&gt; were discussed and determined by leveraging building energy consumption and daylight provision. Various &lt;em&gt;d-h-θ&lt;/em&gt; and &lt;em&gt;r-θ&lt;/em&gt; combinations were investigated.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;fig2&quot;&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/img/blog/fig_2.jpg&quot; alt=&quot;BISTS configuration.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Case &lt;code&gt;d0.84_h0.66_θ30◦&lt;/code&gt; was selected for the south facade, which consists of 4 horizontal panel arrays on each strip window with 30◦ surface slope. The total depth of the BISTS was 0.84 m and it was located 0.66 m above the window. Case &lt;code&gt;r1.28_θ0◦&lt;/code&gt; was used for both east and west facades, in which 8 panels are symmetrically mounted in vertical arrays with 0◦ slat angle on each strip window. The total collector area is about 460 m2.&lt;/p&gt;
+
+&lt;h2 id=&quot;energy-saving&quot;&gt;Energy saving&lt;/h2&gt;
+
+&lt;p&gt;The BISTS system helps to reduce the building energy consumption. The savings vary for different BISTS configurations. Potentially, 1.4% of primary energy saving can be obtained due to the south horizontal BISTS installation. 1.8% and 2.1% of energy savings can be achieved from the east and west vertical BISTS installations, respectively. The savings are not significant because for a large-scale building, energy consumption is mainly dominated by interior loads instead of weather condition. The final proposed design could save 5.3% of the total primary energy.&lt;/p&gt;
+
+&lt;h2 id=&quot;daylight-provision&quot;&gt;Daylight provision&lt;/h2&gt;
+
+&lt;p&gt;The BISTS system improves the interior useful daylight level and reduces the excessive daylight level for a single perimeter room. However, some vertical cases with high shading-to-window ratios and large slat angles cannot benefit the useful daylight, which should be avoided for applications. The BISTS system also changes the illuminance distribution on the work plane, especially for the east and west installations. The final proposed design could increase the &lt;em&gt;UDI500–1000&lt;/em&gt; value by 2.1% (south), 28.5% (east), and 21.6% (west), and reduce the &lt;em&gt;UDI&amp;gt;2000&lt;/em&gt; value by 5.8% (south), 26.1% (east), and 27.0% (west).&lt;/p&gt;
+
+&lt;h2 id=&quot;solar-usage&quot;&gt;Solar usage&lt;/h2&gt;
+
+&lt;p&gt;The BISTS system can be employed to provide domestic hot water (DHW), space heating and/or cooling. To achieve the economic optimum solar fraction of 75% for DWH, either 10 m2 collector on the south facade or 33 m2 collector on the east and west facades are required. The second scenario was proved to be more appealing, in which 64.6% of heating demand or 20.2% of cooling requirement can be potentially met by the remaining collectors. During June and October, heating demand can be fully covered. But for cooling load, the highest solar fraction is only about 35% in April.&lt;/p&gt;
+
+&lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;L. Li, M. Qu, S. Peng, &lt;a href=&quot;/assets/doc/Publication_1.pdf&quot;&gt;Performance evaluation of building integrated solar thermal shading system: building energy consumption and daylight provision&lt;/a&gt;, Energy and Buildings 113 (2016) 189–201.&lt;/li&gt;
+  &lt;li&gt;L. Li, M. Qu, S. Peng, Performance evaluation of building integrated solar thermal shading system: active solar energy usage, Energy and Buildings (under review).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This project was directed by &lt;strong&gt;Dr. Ming Qu&lt;/strong&gt; (Purdue University), and sponsored by &lt;strong&gt;Dr. Steve Peng&lt;/strong&gt; (Taiwan Ziolar Technology Co. Ltd).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+			<pubDate>Mon, 15 Jun 2015 00:00:00 +0800</pubDate>
+			<link>/2015/06/15/building-integrated-solar-thermal-application.html</link>
+			<guid isPermaLink="true">/2015/06/15/building-integrated-solar-thermal-application.html</guid>
+			
+			<category>building</category>
+			
+			<category>solar</category>
+			
+			
+		</item>
+		
+		<item>
+			<title>Bowing to Him</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/bowing_to_him_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/bowing_to_him_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 30” x 20”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2nd Place&lt;/strong&gt; Winner of the Oakton Foundation &lt;a href=&quot;http://www.oaktonfoundation.com/#!visual-arts-competition/c1dzm&quot;&gt;Visual Arts Competition&lt;/a&gt;, Fall 2014&lt;/p&gt;
+
+</description>
+			<pubDate>Sat, 28 Feb 2015 00:00:00 +0800</pubDate>
+			<link>/2015/02/28/bowing-to-him.html</link>
+			<guid isPermaLink="true">/2015/02/28/bowing-to-him.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Parker Ellis</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/parker_ellis_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/parker_ellis_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 11.5” x 12.5”&lt;/p&gt;
+</description>
+			<pubDate>Sat, 04 Oct 2014 00:00:00 +0800</pubDate>
+			<link>/2014/10/04/parker-ellis.html</link>
+			<guid isPermaLink="true">/2014/10/04/parker-ellis.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Leonardo Dicaprio</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/leonardo_dicaprio_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/leonardo_dicaprio_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 11.5” x 10.5”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://leonardodicaprio.com&quot;&gt;http://leonardodicaprio.com&lt;/a&gt;&lt;/p&gt;
+</description>
+			<pubDate>Fri, 18 Jul 2014 00:00:00 +0800</pubDate>
+			<link>/2014/07/18/leonardo-dicaprio.html</link>
+			<guid isPermaLink="true">/2014/07/18/leonardo-dicaprio.html</guid>
+			
+			
+		</item>
+		
+		<item>
+			<title>Brokeback Mountain</title>
+			<description>&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/brokeback_mountain_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/artworks/brokeback_mountain_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picture size: 18” x 12”&lt;/p&gt;
+</description>
+			<pubDate>Thu, 05 Jun 2014 00:00:00 +0800</pubDate>
+			<link>/2014/06/05/brokeback-mountain.html</link>
+			<guid isPermaLink="true">/2014/06/05/brokeback-mountain.html</guid>
+			
+			
+		</item>
+		
+	</channel>
+</rss>
