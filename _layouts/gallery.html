@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="list-group">
+	<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/gallery/{{ page.img }}">
+
+	<div class="list-group-item">
+		<h4>{{ page.title }}</h4>
+		Picture Size: {{ page.pic-size }}
+		<p>{{ content }}</p>
+	</div>
+
+	<div class="list-group-item">
+		{% include html/pages.html %}
+	</div>
+
+	<div class="list-group-item">
+		{% include html/disqus.html %}
+	</div>
+</div>

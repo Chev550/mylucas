@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Contact"
+---
+
+<div class="list-group">
+	
+	<div class="list-group-item">
+		<form class="contact" action="https://formspree.io/lucasli.online@outlook.com" method="POST">
+			<input type="text" name="Subject" value="Subject" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<input type="email" name="Email" value="Email" onfocus="onFocus(this)" onblur="onBlur(this)">
+			<textarea name="Message" value="Message" onfocus="onFocus(this)" onblur="onBlur(this)">Message</textarea>
+			<input type="hidden" name="_next" value="{{ site.baseurl }}/pages/sent.html" />
+			<button type="submit" class="btn btn-sm btn-primary">Send</button>
+		</form>
+	</div>
+</div>

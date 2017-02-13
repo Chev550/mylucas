@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Projects"
+---
+
+
+<div class="list-group">
+	{% for post in site.categories.projects %}
+	<div class="list-group-item">
+		<div class="row">
+			<div class="col-sm-3">
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/blog/{{ post.img }}">
+			</div>
+
+			<div class="col-sm-9">
+				<span class="gray">{{ post.date | date_to_string }}</span>
+				<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+				<p>{{ post.content | strip_html | truncatewords:40 }}</p>
+				<p>{% include html/post_tags.html %}</p>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
