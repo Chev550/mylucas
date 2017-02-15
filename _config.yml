@@ -12,8 +12,9 @@ disqus_shortname: lucaslionline
 #--------------------------------
 # Miscellaneous Section
 
-photos:
-
+photos2016:
+- {name: 1, txt: }
+- {name: 2, txt: }
 
 
 piano:
