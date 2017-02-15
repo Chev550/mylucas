@@ -12,6 +12,10 @@ disqus_shortname: lucaslionline
 #--------------------------------
 # Miscellaneous Section
 
+photos:
+
+
+
 piano:
 - {name: Paradise, by: Coldplay, src: coldplay-paradise, pdf: y}
 - {name: Viva La Vida, by: Coldplay, src: coldplay-viva_la_vida}

@@ -3,4 +3,14 @@ layout: default
 title: "Photos"
 ---
 
-{% include html/carousel.html %}
+<div class="list-group">
+	<div class="list-group-item">
+		<div class="row">
+			{% for doc in site.photos %}
+			<div class="col-sm-4">
+				<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/photos/img_1.png">
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

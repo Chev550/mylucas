@@ -14,27 +14,31 @@
 
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="{% if page.url contains 'about' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/about.html">About</a></li>
+					<li class="{% if page.url contains 'about' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
 
 
-					<li class="{% if page.url contains 'projects' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/projects.html">Projects</a></li>
+					<li class="{% if page.url contains 'projects' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/projects.html"><span class="glyphicon glyphicon-th-list"></span> Projects</a></li>
 					
 
-					<li class="{% if page.url contains 'gallery' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/gallery.html">Gallery</a></li>
+					<li class="{% if page.url contains 'gallery' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/gallery.html"><span class="glyphicon glyphicon-picture"></span> Gallery</a></li>
 
 
-					<li class="{% if page.url contains 'publications' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/publications.html">Publications</a></li>
+					<li class="{% if page.url contains 'publications' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/publications.html"><span class="glyphicon glyphicon-list-alt"></span> Publications</a></li>
 
 
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscellaneous <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th-large"></span> Miscellaneous <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li class="{% if page.url contains 'blog' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/blog.html">Blog</a></li>
-							<li class="{% if page.url contains 'contact' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/contact.html">Contact</a></li>
+							<li class="{% if page.url contains 'contact' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+
+							<li class="divider"></li>
+							<li class="{% if page.url contains 'blog' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/blog.html"><span class="glyphicon glyphicon-pencil"></span> Blog</a></li>
+							<li class="{% if page.url contains 'photos' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/photos.html"><span class="glyphicon glyphicon-camera"></span> Photos</a></li>
+							
 
 							<li class="divider"></li>
 							<li class="dropdown-header">Favorites</li>
-							<li class="{% if page.url contains 'music' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/music.html">Music</a></li>
+							<li class="{% if page.url contains 'music' %}active{% endif %}"><a href="{{ site.baseurl }}/pages/music.html"><span class="glyphicon glyphicon-music"></span> Music</a></li>
 						</ul>
 					</li>
 				</ul>
