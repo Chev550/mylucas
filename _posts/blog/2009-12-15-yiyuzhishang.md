@@ -1,95 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<title>Lucas Li | Blog</title>
-	
+---
+layout: post
+title: "彝语之殇"
+categories: blog
+---
 
-	<!-- ====================== Bootstrap core css ========================= -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
-	<!-- Bootstrap theme -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-theme.css">
-	<!-- Custom css -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
-
-
-
-	<!-- ================== Bootstrap core JavaScript ==================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<!--script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script-->
-	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
-	<script src="/assets/js/jquery-1.11.3.js"></script>
-	<!-- Bootstrap core js -->
-	<script src="/assets/js/bootstrap.min.js"></script>
-	<!-- Custom js -->
-	<script src="/assets/js/basic.js"></script>
-</head>
-
-</head>
-
-<body>
-	<div class="container clearance">
-		<header>
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/"><img src="/assets/img/home_24.png"></a>
-			</div>
-
-
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class=""><a href="/pages/about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
-
-
-					<li class=""><a href="/pages/projects.html"><span class="glyphicon glyphicon-th-list"></span> Projects</a></li>
-					
-
-					<li class=""><a href="/pages/gallery.html"><span class="glyphicon glyphicon-picture"></span> Gallery</a></li>
-
-
-					<li class=""><a href="/pages/publications.html"><span class="glyphicon glyphicon-list-alt"></span> Publications</a></li>
-
-
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th-large"></span> Miscellaneous <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li class=""><a href="/pages/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-
-							<li class="divider"></li>
-							<li class="active"><a href="/pages/blog.html"><span class="glyphicon glyphicon-pencil"></span> Blog</a></li>
-							<li class=""><a href="/pages/photos/albums.html"><span class="glyphicon glyphicon-camera"></span> Photos</a></li>
-							
-
-							<li class="divider"></li>
-							<li class="dropdown-header">Favorites</li>
-							<li class=""><a href="/pages/music.html"><span class="glyphicon glyphicon-music"></span> Music</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!--/.nav-collapse -->
-</header>
-
-
-		<div class="list-group">
-	
-	<div class="list-group-item">
-		<span class="gray">15 Dec 2009</span>
-		<h4><a href="/blog/2009/12/15/yiyuzhishang.html">彝语之殇</a></h4>
-		<!--p>一
+#### 一
 
 我是一个生在彝区，长在彝区的彝族儿子。孩提时候，“海菜腔”的调子和“烟盒舞”的舞步就如烙印般融入了我的血肉，听“海菜腔”和看“烟盒舞”也成为我童年时期最乐此不彼的事情。而月明星稀篝火熊熊，一群穿着花腰服饰的阿公阿婆围着火堆拨着四弦弹着烟盒载歌载舞的画面，已如同碱基对般扎入我的基因，成为了我童年永不褪色的记忆。
 
@@ -103,9 +18,9 @@
 
 在“海菜腔”抑扬的曲调中，我怆然肃立，泪眼朦胧。
 
+---
 
-
-二
+#### 二
 
 是的，语言是民族识别的首要要素，是文化遗产中至关重要的内容。连自己民族的语言都抛弃了，何以能够把民族文化的精髓传承下去？
 
@@ -139,9 +54,9 @@
 
 再次听到“海菜腔”抑扬的曲调，我体会到了一种有形无形、有声无息的存在，那是来自祖先的声音，是触动灵魂发自肺腑的感动，是历史流注的民族精神。
 
+---
 
-
-三
+#### 三
 
 吉狄马加的诗让我看到了一个彝族文化守望者的思考，他在《失去的传统》中说：“好像一根/被遗弃的竹笛/当山风吹来的时候/它会呜呜地哭泣/又像一束星光/闪耀在云层的深处/可在它的眼里/却含有悲哀的气息/其实它更像/一团白色的雾霭/沿着山岗慢慢地离去/没有一点声音/但弥漫着回忆”。好事的我不禁发问：到底是什么让曾经光芒万丈的彝族文化由高迈走向苦吟，由苦吟走向无声？
 
@@ -171,9 +86,9 @@
 
 具有八千多年历史的彝文如今变得四分五裂，这难道不值得我们反思吗？如果连文字都统一不了，彝语何以能同汉、英分庭抗礼？各种版本的彝汉字典，彝英字典出现得越多，我们就越容易迷失、越容易自我崩溃，到时候，民族的希望就很有可能完全丧失在自身的血与肉中！
 
+---
 
-
-四
+#### 四
 
 暑假回到故土，竟感到一种说不出陌生。现在的彝区，已经很难再碰到一个说彝话、懂彝文、穿彝族服饰的人，更不像以前那样随时可以听到婉转的山歌和烟盒舞的“嗒嗒”声，而月明星稀篝火熊熊，穿着花腰服饰的阿公阿婆围着火堆拨着四弦弹着烟盒载歌载舞的画面，早已成为脱水的标本，封存在时代的记忆中。
 
@@ -186,36 +101,3 @@
 在现代化和全球化浪潮中盲目追随、沉湎迷失的彝族同胞们，请坚守住一点：是彝人，就该说彝话。这是对母语最起码的尊重，是对古老彝族文明的复苏做出的最基本的努力。曾经一度灭绝的希伯来文在几个知识分子的不懈努力下得以恢复，我们又有什么理由让八千多岁的母语继续失意，让曾经高度发达的彝族文明走向失落呢？
 
 “海菜腔”抑扬的曲调在我脑海中响起，旋律与阳光搭配起来甚是协调。
-</p-->
-	</div>
-	
-</div>
-	</div>
-
-
-	<footer>
-	<span>&copy;</span>
-	<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-	<a href="mailto:lucas.li@sdchina.org.cn">Lucas Li</a>.
-	All Rights Reserved.
-	<a href="http://statcounter.com" target="_blank"><!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=10026189; 
-var sc_invisible=0; 
-var sc_security="1e05e198"; 
-var sc_text=2; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="shopify site
-analytics" href="http://statcounter.com/shopify/"
-target="_blank"><img class="statcounter"
-src="//c.statcounter.com/10026189/0/1e05e198/0/"
-alt="shopify site analytics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide --></a> visits.
-</footer>
-</body>
-</html>

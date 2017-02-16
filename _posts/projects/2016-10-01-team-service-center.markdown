@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Team Service Center"
-category: projects
+categories: projects
 img: service_center.png
 tag:
 - website

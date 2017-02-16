@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building Integrated Solar Thermal Shading Application"
-category: projects
+categories: projects
 img: bist.png
 tag:
 - research
