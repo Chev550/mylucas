@@ -6,7 +6,7 @@ title: "Music"
 <div id="playlist">
 	<audio id="audio" preload="auto" tabindex="0" controls=""></audio>
 	<div class="list-group">	
-		{% for doc in site.piano %}
+		{% for doc in site.music %}
 		<a class="list-group-item" href="{{ site.baseurl }}/assets/audio/{{ doc.src }}.mp3">{{ doc.by }} - {{ doc.name }}</a>
 		{% endfor %}
 	</div>

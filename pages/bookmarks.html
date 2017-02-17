@@ -1,0 +1,12 @@
+---
+layout: default
+title:  "Bookmarks"
+---
+
+<div class="list-group">
+	{% for doc in site.bookmarks %}
+	<a class="list-group-item" href="{{ doc.url }}" target="_blank">
+		{{ doc.name }}
+	</a>
+	{% endfor %}
+</div>

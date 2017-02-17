@@ -17,10 +17,11 @@ photos2016:
 - {name: 2, txt: }
 
 
-piano:
+music:
 - {name: Paradise, by: Coldplay, src: coldplay-paradise, pdf: y}
 - {name: Viva La Vida, by: Coldplay, src: coldplay-viva_la_vida}
 - {name: Clocks, by: Coldplay, src: coldplay-clocks, pdf: y}
+- {name: The Scientist, by: Coldplay, src: coldplay-the_scientist}
 - {name: Atlas, by: Coldplay, src: coldplay-atlas, pdf: y}
 - {name: Violet Hill, by: Coldplay, src: coldplay-violet_hill}
 - {name: Fix You, by: Coldplay, src: coldplay-fix_you}
@@ -29,7 +30,10 @@ piano:
 - {name: Hymn for the Weekend, by: Coldplay, src: coldplay-hymn_for_the_weekend}
 - {name: Midnight, by: Coldplay, src: coldplay-midnight}
 - {name: Miracles, by: Coldplay, src: coldplay-miracles}
-- {name: The Scientist, by: Coldplay, src: coldplay-the_scientist}
 - {name: Magic, by: Coldplay, src: coldplay-magic, pdf: y}
-
 - {name: Chevaliers De Sangreal, by: Hans Zimmer, src: hans_zimmer-chevaliers_de_sangreal}
+
+
+bookmarks:
+- {name: Covenant Church, url: "http://www.covenantepc.org"}
+
