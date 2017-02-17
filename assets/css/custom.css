@@ -82,7 +82,7 @@ a:hover path {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-	height: 405px;
+	height: 480px;
 	margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -91,7 +91,7 @@ a:hover path {
 }
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	height: 405px;
+	height: 480px;
 	background-color: #777;
 }
 

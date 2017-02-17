@@ -12,26 +12,14 @@ disqus_shortname: lucaslionline
 #--------------------------------
 # Miscellaneous Section
 
-photos2016:
+photos:
 - {name: 1, txt: }
 - {name: 2, txt: }
 
 
 music:
-- {name: Paradise, by: Coldplay, src: coldplay-paradise, pdf: y}
-- {name: Viva La Vida, by: Coldplay, src: coldplay-viva_la_vida}
-- {name: Clocks, by: Coldplay, src: coldplay-clocks, pdf: y}
-- {name: The Scientist, by: Coldplay, src: coldplay-the_scientist}
-- {name: Atlas, by: Coldplay, src: coldplay-atlas, pdf: y}
-- {name: Violet Hill, by: Coldplay, src: coldplay-violet_hill}
-- {name: Fix You, by: Coldplay, src: coldplay-fix_you}
-- {name: A Sky Full of Stars, by: Coldplay, src: coldplay-a_sky_full_of_stars}
-- {name: Everglow, by: Coldplay, src: coldplay-everglow}
-- {name: Hymn for the Weekend, by: Coldplay, src: coldplay-hymn_for_the_weekend}
-- {name: Midnight, by: Coldplay, src: coldplay-midnight}
-- {name: Miracles, by: Coldplay, src: coldplay-miracles}
-- {name: Magic, by: Coldplay, src: coldplay-magic, pdf: y}
-- {name: Chevaliers De Sangreal, by: Hans Zimmer, src: hans_zimmer-chevaliers_de_sangreal}
+- {name: "10,000 Reasons", by: "Matt Redman", src: Matt_Redman-10000_Reasons}
+- {name: "Fires", by: "Matt Redman", src: Matt_Redman-Fires}
 
 
 bookmarks:
