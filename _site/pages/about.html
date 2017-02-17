@@ -114,14 +114,30 @@
 				<hr>
 
 				<p>
-					<a class="btn btn-xs btn-primary" href="#">Resume</a>
-					<a class="btn btn-xs btn-primary" href="">Facebook</a>
-					<a class="btn btn-xs btn-primary" href="">LinkedIn</a>
+					<a class="btn btn-xs btn-primary" href="#" onClick="show()">Resume</a>
+					<a class="btn btn-xs btn-primary" href="https://www.facebook.com/lucaslionline/" target="_blank">Facebook</a>
+					<a class="btn btn-xs btn-primary" href="https://www.linkedin.com/in/lucaslionline/" target="_blank">LinkedIn</a>
+				</p>
+
+				<p id="request">
+					Resume is available upon request. Send Lucas a request?
+					<a href="/pages/contact.html">Yes</a> /
+					<a href="#" onClick="show()">No</a>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
+
+<script type="text/javascript">
+$('p#request').hide();
+function show(){
+	$('p#request').toggle("fast");
+}
+</script>
 	</div>
 
 
