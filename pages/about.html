@@ -31,16 +31,16 @@ title: "About"
 
 				<hr>
 
-				<p>
+				<p id="social">
 					<span class="btn btn-xs btn-primary" onClick="show()">Resume</span>
 					<a class="btn btn-xs btn-primary" href="https://www.facebook.com/lucaslionline/" target="_blank">Facebook</a>
 					<a class="btn btn-xs btn-primary" href="https://www.linkedin.com/in/lucaslionline/" target="_blank">LinkedIn</a>
 				</p>
 
 				<p id="request">
-					Resume is available upon request. Send Lucas a request?
-					<a href="{{ site.baseurl }}/pages/contact.html">Yes</a> /
-					<a href="#" onClick="show()">No</a>
+					<strong>Resume</strong> is available upon request. Send Lucas a request?
+					<a class="btn btn-xs btn-default" href="{{ site.baseurl }}/pages/contact.html">Yes</a>
+					<span class="btn btn-xs btn-default" onClick="show()">No</span>
 				</p>
 			</div>
 		</div>
@@ -54,5 +54,6 @@ title: "About"
 $('p#request').hide();
 function show(){
 	$('p#request').toggle("fast");
+	$('p#social').toggle("fast");
 }
 </script>
