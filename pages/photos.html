@@ -1,61 +1,20 @@
 ---
-layout: default
+layout: gallery
 title: "Photos"
 ---
 
 
-<!-- Carousel
-	================================================== -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			{% for img in site.photos %}
-			<li data-target="#myCarousel" data-slide-to="{{ img.name }}"></li>
-			{% endfor %}
-		</ol>
-
-
-
-		<div class="carousel-inner" role="listbox">
-			<div class="item active" style="background: url({{ site.baseurl }}/assets/img/photos/img_0.jpg) center center; background-size: cover;">
-				<div class="container">
-					<div class="carousel-caption">
-						<h1>Faith Hope Love</h1>
-						<p>Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protests, always trusts, always hopes, and always perseveres. Love never fails.</p>
-					</div>
-				</div>
-			</div>
-
-			{% for img in site.photos %}
-			<div class="item" style="background: url({{ site.baseurl }}/assets/img/photos/img_{{ img.name }}.jpg) center center; background-size: cover;">
-				<div class="container">
-					<div class="carousel-caption">
-						<p>{{ img.txt }}</p>
-						<!--p><a class="btn btn-xs btn-default" href="{{ site.baseurl }}/assets/img/photos/img_{{ img.name }}.jpg" target="_blank"><span class="glyphicon glyphicon-zoom-in"></span></a></p-->
-					</div>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-
-
-
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-<!-- /.carousel -->
-
-
-
-<div class="list-group">
-	<div class="list-group-item">
-		{% include html/disqus.html %}
-	</div>
+<div class="my-gallery">
+    <div class="row">
+        {% for img in site.photos %}
+        <figure>
+            <a href="{{ site.baseurl }}/assets/img/photos/img_{{ img.name }}.jpg" data-size="{{ img.size }}" itemprop="contentUrl">
+                <div class="col-sm-4">
+                    <img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/photos/img_{{ img.name }}.jpg">
+                </div>
+            </a>
+            <figcaption>{{ img.txt }}</figcaption>
+        </figure>
+        {% endfor %}
+    </div>
 </div>

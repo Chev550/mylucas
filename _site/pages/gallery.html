@@ -16,8 +16,7 @@
 	<!-- Custom css -->
 	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
-
-
+	
 	<!-- ================== Bootstrap core JavaScript ==================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<!--script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script-->
@@ -27,6 +26,17 @@
 	<script src="/assets/js/bootstrap.min.js"></script>
 	<!-- Custom js -->
 	<script src="/assets/js/basic.js"></script>
+
+
+
+
+	<!-- ====================== PhotoSwipe core css ========================= -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/photoswipe.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/default-skin/default-skin.css">
+
+	<!-- ================== PhotoSwipe core JavaScript ==================== -->
+	<script src="/assets/js/photoswipe.min.js"></script>
+	<script src="/assets/js/photoswipe-ui-default.min.js"></script>
 </head>
 
 </head>
@@ -85,37 +95,124 @@
 </header>
 
 
-		<div class="row">
-	
-	<div class="col-sm-4">
-		<a href="/gallery/2015/09/11/dan-stevens.html">
-			<img class="img-thumbnail" src="/assets/img/gallery/dan_stevens.jpg">
-		</a>
-		<p>- Dan Stevens -</p>
+		<div class="my-gallery">
+	<div class="row">
+		
+		<figure>
+			<a href="/assets/img/gallery/dan_stevens.jpg" data-size="1080x1160">
+				<div class="col-sm-4">
+					<img class="img-thumbnail" src="/assets/img/gallery/dan_stevens.jpg">
+				</div>
+			</a>
+			<figcaption>Dan Stevens, 11 Sep 2015</figcaption>
+		</figure>
+		
+		<figure>
+			<a href="/assets/img/gallery/bowing_to_him.jpg" data-size="1500x1000">
+				<div class="col-sm-4">
+					<img class="img-thumbnail" src="/assets/img/gallery/bowing_to_him.jpg">
+				</div>
+			</a>
+			<figcaption>Bowing To Him, 28 Feb 2015</figcaption>
+		</figure>
+		
+		<figure>
+			<a href="/assets/img/gallery/parker_ellis.jpg" data-size="1150x1250">
+				<div class="col-sm-4">
+					<img class="img-thumbnail" src="/assets/img/gallery/parker_ellis.jpg">
+				</div>
+			</a>
+			<figcaption>Parker Ellis, 04 Oct 2014</figcaption>
+		</figure>
+		
+		<figure>
+			<a href="/assets/img/gallery/leonardo_dicaprio.jpg" data-size="1150x1050">
+				<div class="col-sm-4">
+					<img class="img-thumbnail" src="/assets/img/gallery/leonardo_dicaprio.jpg">
+				</div>
+			</a>
+			<figcaption>Leonardo Dicaprio, 18 Jul 2014</figcaption>
+		</figure>
+		
+		<figure>
+			<a href="/assets/img/gallery/brokeback_mountain.jpg" data-size="1500x1000">
+				<div class="col-sm-4">
+					<img class="img-thumbnail" src="/assets/img/gallery/brokeback_mountain.jpg">
+				</div>
+			</a>
+			<figcaption>Brokeback Mountain, 05 Jun 2014</figcaption>
+		</figure>
+		
 	</div>
-	
-	<div class="col-sm-4">
-		<a href="/gallery/2015/02/28/bowing-to-him.html">
-			<img class="img-thumbnail" src="/assets/img/gallery/bowing_to_him.jpg">
-		</a>
-		<p>- Bowing To Him -</p>
-	</div>
-	
-	<div class="col-sm-4">
-		<a href="/gallery/2014/10/04/parker-ellis.html">
-			<img class="img-thumbnail" src="/assets/img/gallery/parker_ellis.jpg">
-		</a>
-		<p>- Parker Ellis -</p>
-	</div>
-	
-	<div class="col-sm-4">
-		<a href="/gallery/2014/07/18/leonardo-dicaprio.html">
-			<img class="img-thumbnail" src="/assets/img/gallery/leonardo_dicaprio.jpg">
-		</a>
-		<p>- Leonardo Dicaprio -</p>
-	</div>
-	
 </div>
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<!-- Background of PhotoSwipe. 
+    It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/photoswipe.my.js"></script>
 
 	</div>
 

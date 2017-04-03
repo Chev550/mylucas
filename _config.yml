@@ -9,12 +9,21 @@ disqus_shortname: lucaslionline
 
 
 
+
+gallery:
+- {name: "dan_stevens", size: "1080x1160", txt: "Dan Stevens, 11 Sep 2015"}
+- {name: "bowing_to_him", size: "1500x1000", txt: "Bowing To Him, 28 Feb 2015"}
+- {name: "parker_ellis", size: "1150x1250", txt: "Parker Ellis, 04 Oct 2014"}
+- {name: "leonardo_dicaprio", size: "1150x1050", txt: "Leonardo Dicaprio, 18 Jul 2014"}
+- {name: "brokeback_mountain", size: "1500x1000", txt: "Brokeback Mountain, 05 Jun 2014"}
+
+
 #--------------------------------
 # Miscellaneous Section
 
 photos:
-- {name: 1, txt: "The worst feeling in the world is when you cannot love anyone else because your heart still belongs to the one who broke it."}
-- {name: 2, txt: }
+- {name: 1, size: "800x531", txt: }
+- {name: 2, size: "800x531", txt: }
 
 
 music:

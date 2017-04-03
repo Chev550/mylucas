@@ -1,16 +1,20 @@
 ---
-layout: default
+layout: gallery
 title: "Gallery"
 ---
 
 
-<div class="row">
-	{% for post in site.categories.gallery %}
-	<div class="col-sm-4">
-		<a href="{{ site.baseurl }}{{ post.url }}">
-			<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/gallery/{{ post.img }}">
-		</a>
-		<p>- {{ post.title }} -</p>
+<div class="my-gallery">
+	<div class="row">
+		{% for img in site.gallery %}
+		<figure>
+			<a href="{{ site.baseurl }}/assets/img/gallery/{{ img.name }}.jpg" data-size="{{ img.size }}">
+				<div class="col-sm-4">
+					<img class="img-thumbnail" src="{{ site.baseurl }}/assets/img/gallery/{{ img.name }}.jpg">
+				</div>
+			</a>
+			<figcaption>{{ img.txt }}</figcaption>
+		</figure>
+		{% endfor %}
 	</div>
-	{% endfor %}
 </div>
