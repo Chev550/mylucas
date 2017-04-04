@@ -22,6 +22,9 @@ gallery:
 # Miscellaneous Section
 
 photos:
+- {name: 5, size: "1800x1200", txt: }
+- {name: 4, size: "1800x1200", txt: }
+- {name: 3, size: "1800x1200", txt: }
 - {name: 1, size: "800x531", txt: }
 - {name: 2, size: "800x531", txt: }
 
