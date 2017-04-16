@@ -1,7 +1,26 @@
-<footer>
+<footer class="small">
+	<hr>
+	<p>
+		<a href="{{ site.baseurl }}/contact.html">contact</a> /
+		<a href="{{ site.baseurl }}/projects.html">projects</a> /
+		<a href="{{ site.baseurl }}/publications.html">publications</a> /
+		<a href="{{ site.baseurl }}/resources.html">resources</a> /
+		<a href="https://www.facebook.com/lucaslionline/" target="_blank">facebook</a> /
+		<a href="https://www.linkedin.com/in/lucaslionline/" target="_blank">linkedin</a>
+	</p>
+
+
 	<span>&copy;</span>
 	<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-	<a href="mailto:lucas.li@sdchina.org.cn">Lucas Li</a>.
-	All Rights Reserved.
-	<a href="http://statcounter.com" target="_blank">{% include html/stat.html %}</a> visits.
+	lucas li.
+	
+	<a href="http://statcounter.com" target="_blank">{% include stat.html %}</a> visits.
+
+	<!--a id="toCH">中文</a-->
 </footer>
+
+<script type="text/javascript">
+var URL = window.location.href;
+var newURL = URL.replace("/en", "/ch");
+document.getElementById("toCH").href = newURL;
+</script>

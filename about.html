@@ -1,0 +1,33 @@
+---
+layout: default
+title: "about"
+---
+
+<p>Lucas LI is a motivated architectural engineer, freelance programmer, art lover, and lifelong learner.</p>
+
+<p>Currently Lucas is working as the Competition Manager at the Organizing Committee of <a href="http://www.sdchina.org.cn/english" target="_blank">Solar Decathlon China</a>, mainly responsible for ruling, compliance review, competition arrangement and implementation, and also coordinating with scoring system, site planning, team service, etc.</p>
+
+<p>Lucas received his Bachelor of Building Environment & Facilities Engineering from <a href="http://www.tongji.edu.cn" target="_blank">Tongji University</a> in 2012, and got his Master of Architectural Engineering from <a href="http://www.purdue.edu" target="_blank">Purdue University</a> in 2015, researching on building energy modeling, daylight analysis, CFD simulation, building integrated solar system, HVAC system, etc.</p>
+
+<br>
+<p id="social">
+	<span class="btn btn-xs btn-default" onClick="show()"><span class="glyphicon glyphicon-file"></span> Resume</span>
+	<a class="btn btn-xs btn-default" href="{{ site.baseurl }}/en/projects.html"><span class="glyphicon glyphicon-folder-close"></span> Projects</a>
+	<a class="btn btn-xs btn-default" href="{{ site.baseurl }}/en/publications.html"><span class="glyphicon glyphicon-book"></span> Publications</a>
+	<a class="btn btn-xs btn-default" href="{{ site.baseurl }}/en/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a>
+</p>
+
+<p id="request">
+	<i>Resume [pdf] is available upon request. Send Lucas a request?</i>
+	<a class="btn btn-xs btn-default" href="{{ site.baseurl }}/en/contact.html">Yes</a>
+	<span class="btn btn-xs btn-default" onClick="show()">No</span>
+</p>
+
+
+<script type="text/javascript">
+$('p#request').hide();
+function show(){
+	$('p#request').toggle("fast");
+	$('p#social').toggle("fast");
+}
+</script>

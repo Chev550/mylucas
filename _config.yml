@@ -1,9 +1,9 @@
-title: Lucas Li
+title: lucas li
 baseurl: /lucasli
 markdown: kramdown
-# gems: [jekyll-paginate]
-# paginate: 5
-# paginate_path: "questions/page:num"
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 disqus_shortname: lucaslionline
 

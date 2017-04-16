@@ -2,24 +2,18 @@
 layout: default
 ---
 
-<div class="list-group">
-	<div class="list-group-item active">
-		<h3>{{ page.title }}</h3>
-		<p>
-			<span class="gray">{{ page.date | date_to_string }}</span>
-			{% include html/post_tags.html %}
-		</p>
-	</div>
-	
-	<div class="list-group-item">
-		{{ content }}
-	</div>
+<h3 class="normalWeight">{{ page.title }}</h3>
+<p class="gray">
+	<span>{{ page.date | date_to_string }}</span> /
+	{% include post_tags.html %}
+</p>
+<br>
 
-	<div class="list-group-item">
-		{% include html/pages.html %}
-	</div>
+{{ content }}
 
-	<div class="list-group-item">
-		{% include html/disqus.html %}
-	</div>
-</div>
+<hr>
+{% include pages.html %}
+
+<hr>
+{% include disqus.html %}
+

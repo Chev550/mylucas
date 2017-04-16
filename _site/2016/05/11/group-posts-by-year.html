@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Here is the code template I am using to make a chronological archive1.            “Jekyll archives grouped by date”, mikerowecode. &#8617;      ">
+	<title>lucas li | Group Posts By Year</title>
+	
+
+	<!-- ====================== Bootstrap core css ========================= -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
+	<!-- Bootstrap theme -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-theme.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+
+	
+	<!-- ================== Bootstrap core JavaScript ==================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!--script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script-->
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+	<script src="/assets/js/jquery-1.11.3.js"></script>
+	<!-- Bootstrap core js -->
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<!-- Custom js -->
+	<script src="/assets/js/basic.js"></script>
+
+
+
+
+	<!-- ====================== PhotoSwipe core css ========================= -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/photoswipe.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/default-skin/default-skin.css">
+
+	<!-- ================== PhotoSwipe core JavaScript ==================== -->
+	<script src="/assets/js/photoswipe.min.js"></script>
+	<script src="/assets/js/photoswipe-ui-default.min.js"></script>
+</head>
+
+</head>
+
+<body>
+	<div class="container clearance">
+		<header>
+	<nav>
+		<h3><a href="/">li, lucas</a></h3>
+		
+		<a href="/about.html">about</a> /
+		<a href="/blog/">blog</a> /
+		<a href="/gallery.html">gallery</a>
+	</nav>
+	<hr>
+</header>
+
+		<p class="small gray">
+			lucas &raquo; Group Posts By Year
+		</p>
+
+		<br>
+
+		<h3 class="normalWeight">Group Posts By Year</h3>
+<p class="gray">
+	<span>11 May 2016</span> /
+	
+
+
+<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
+
+</p>
+<br>
+
+<p>Here is the code template I am using to make a chronological archive<sup id="fnref:mik"><a href="#fn:mik" class="footnote">1</a></sup>.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for post in site.categories.[page.category] %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+	
+{% if forloop.first %}
+<span class="nt">&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
+{% elsif year != nyear %}
+<span class="nt">&lt;/ul&gt;&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
+{% endif %}
+
+<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{site.baseurl}}{{post.url}}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
+{{ post.date | date: "%-m/%-d/%y" }}<span class="nt">&lt;/li&gt;</span>
+{% endfor %}
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:mik">
+      <p><a href="http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html">“Jekyll archives grouped by date”</a>, mikerowecode. <a href="#fnref:mik" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+<hr>
+
+
+<a class="btn btn-xs btn-default" href="/2016/03/20/previous-next-post-within-a-category.html">&laquo; Prev</a>
+
+
+
+<a class="btn btn-xs btn-default pull-right" href="/2016/06/27/image-quality-and-size.html">Next &raquo;</a>
+
+
+
+<hr>
+<div class="block">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	var disqus_shortname = "lucaslionline"; 
+	(function() {
+		var d = document, s = d.createElement('script');
+		s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+	</script>
+</div>
+
+
+
+		<footer class="small">
+	<hr>
+	<p>
+		<a href="/contact.html">contact</a> /
+		<a href="/projects.html">projects</a> /
+		<a href="/publications.html">publications</a> /
+		<a href="/resources.html">resources</a> /
+		<a href="https://www.facebook.com/lucaslionline/" target="_blank">facebook</a> /
+		<a href="https://www.linkedin.com/in/lucaslionline/" target="_blank">linkedin</a>
+	</p>
+
+
+	<span>&copy;</span>
+	<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+	lucas li.
+	
+	<a href="http://statcounter.com" target="_blank"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10026189; 
+var sc_invisible=0; 
+var sc_security="1e05e198"; 
+var sc_text=2; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify site
+analytics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/10026189/0/1e05e198/0/"
+alt="shopify site analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></a> visits.
+
+	<!--a id="toCH">中文</a-->
+</footer>
+
+<script type="text/javascript">
+var URL = window.location.href;
+var newURL = URL.replace("/en", "/ch");
+document.getElementById("toCH").href = newURL;
+</script>
+	</div>
+</body>
+</html>

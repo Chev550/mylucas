@@ -8,10 +8,15 @@
 	<div class="container clearance">
 		{% include header.html %}
 
+		<p class="small gray">
+			lucas &raquo; {{ page.title }}
+		</p>
+
+		<br>
+
 		{{ content }}
+
+		{% include footer.html %}
 	</div>
-
-
-	{% include footer.html %}
 </body>
 </html>
