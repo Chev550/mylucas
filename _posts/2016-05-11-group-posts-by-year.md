@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Group Posts By Year"
+title: "Group posts by year"
 tags:
 - jekyll
 ---

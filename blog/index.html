@@ -5,7 +5,7 @@ title: "blog"
 
 {% for post in paginator.posts %}
 <div class="blogItem">
-	<h4>{{ post.title }}</h4>
+	<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 	<p class="gray">
 		{{ post.date | date_to_string }} /
 		{% include post_tags.html %}

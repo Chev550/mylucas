@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Here is the code template I am using to make a chronological archive1.            “Jekyll archives grouped by date”, mikerowecode. &#8617;      ">
-	<title>lucas li | Group posts by year</title>
+	<meta name="description" content="This must be the most despairing moment in my life.">
+	<title>lucas li | Let it go</title>
 	
 
 	<!-- ====================== Bootstrap core css ========================= -->
@@ -55,58 +55,35 @@
 </header>
 
 		<p class="small gray">
-			lucas &raquo; Group posts by year
+			lucas &raquo; Let it go
 
 			
 		</p>
 
 		<br>
 
-		<h3 class="normalWeight">Group posts by year</h3>
+		<h3 class="normalWeight">Let it go</h3>
 <p class="gray">
-	<span>11 May 2016</span> /
+	<span>16 Apr 2017</span> /
 	
 
 
-<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
+<span class="post-tags"><a href="/tags/#life">#life</a></span>
 
 </p>
 <br>
 
-<p>Here is the code template I am using to make a chronological archive<sup id="fnref:mik"><a href="#fn:mik" class="footnote">1</a></sup>.</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for post in site.categories.[page.category] %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-	
-{% if forloop.first %}
-<span class="nt">&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% elsif year != nyear %}
-<span class="nt">&lt;/ul&gt;&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% endif %}
-
-<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{site.baseurl}}{{post.url}}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
-{{ post.date | date: "%-m/%-d/%y" }}<span class="nt">&lt;/li&gt;</span>
-{% endfor %}
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:mik">
-      <p><a href="http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html">“Jekyll archives grouped by date”</a>, mikerowecode. <a href="#fnref:mik" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<p>This must be the most despairing moment in my life.</p>
 
 
 <hr>
 
 
-<a class="btn btn-xs btn-default" href="/2016/03/20/previous-next-post-within-a-category.html">&laquo; Prev</a>
+<a class="btn btn-xs btn-default" href="/2017/04/16/pagination.html">&laquo; Prev</a>
 
 
 
-<a class="btn btn-xs btn-default pull-right" href="/2017/04/16/pagination.html">Next &raquo;</a>
+<span class="btn btn-xs btn-default disabled pull-right">Next &raquo;</span>
 
 
 
