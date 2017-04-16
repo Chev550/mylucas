@@ -68,6 +68,12 @@
 .blogItem:last-of-type {
 	margin-bottom: 0em;
 }
+.blogItem h4 a {
+	color: #333;
+}
+.blogItem h4 a:hover {
+	color: #000;
+}
 
 footer {
 	color: gray;
