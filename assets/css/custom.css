@@ -9,51 +9,12 @@
 .normalWeight {
 	font-weight: normal;
 }
-.lightWeight {
-	font-weight: lighter;
-}
-.spaceBefore {
-	margin-top: 1em;
-}
+
 
 .clearance {
 	margin-top: 20px;
 }
 
-
-
-.contest,
-.file {
-	display: inline-block;
-	padding: 5px 10px;
-	font-size: 12px;
-	text-align: center;
-	cursor: pointer;
-	border-radius: 4px;
-	vertical-align: top;
-}
-.contest:hover,
-.file:hover {
-	background-color: #e6e6e6;
-	border-color: #adadad;
-	text-decoration: none;
-}
-.contest {
-	width: 140px;
-}
-.file {
-	width: 100px;
-}
-
-
-.version {
-	display: inline-block;
-	text-align: center;
-	margin: 1em;
-}
-.version h3 {
-	margin: 0.2em;
-}
 
 .avatar {
 	width: 200px;
@@ -107,13 +68,7 @@ a:hover path {
 	fill: #333;
 }
 
-.lispace li {
-	margin-top: 0.5em;
-}
 
-.tag-cloud {
-	margin: 0.25em 0;
-}
 
 
 
