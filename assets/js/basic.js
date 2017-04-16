@@ -12,10 +12,10 @@ function onFocus(x){
 function onBlur(x){
 	if (x.value == ''){
 		x.value = x.defaultValue;
-		x.style.color = '#ccc';
+		x.style.color = 'gray';
 	}
 	else if (x.value != ''){
-		x.style.color = '#ccc';
+		x.style.color = 'gray';
 	}
 }
 

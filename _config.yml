@@ -20,15 +20,6 @@ gallery:
 
 #--------------------------------
 # Miscellaneous Section
-
-photos:
-- {name: 5, size: "1800x1200", txt: }
-- {name: 4, size: "1800x1200", txt: }
-- {name: 3, size: "1800x1200", txt: }
-- {name: 1, size: "800x531", txt: }
-- {name: 2, size: "800x531", txt: }
-
-
 music:
 - {name: "Mighty To Save", by: "Hillsong United", src: Hillsong_United-Mighty_To_Save}
 - {name: "Oceans", by: "Hillsong United", src: Hillsong_United-Oceans}
@@ -40,4 +31,3 @@ music:
 
 bookmarks:
 - {name: Covenant Church, url: "http://www.covenantepc.org"}
-
