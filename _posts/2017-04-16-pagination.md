@@ -82,6 +82,7 @@ The following HTML snippet should handle page one, and render a list of each pag
 {% highlight html %}
 {% raw %}
 
+<!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
 	{% if paginator.previous_page %}

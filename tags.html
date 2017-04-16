@@ -1,0 +1,23 @@
+---
+layout: default
+title: tags
+permalink: /tags/
+---
+
+{% for tag in site.tags %}
+<a class="btn btn-xs btn-default" href="#{{ tag | first | slugize }}">#{{ tag | first }}</a></li>
+{% endfor %}
+<hr>
+
+
+{% for tag in site.tags %}
+{% capture tag_name %}{{ tag | first }}{% endcapture %}
+<a name="{{ tag_name | slugize }}"></a>
+<h4 id="#{{ tag_name | slugize }}">#{{ tag_name }}</h4>
+<ul>
+	{% for post in site.tags[tag_name] %}
+	<span class="gray pull-right">{{ post.date | date_to_string }}</span>
+	<li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+	{% endfor %}
+</ul>
+{% endfor %}

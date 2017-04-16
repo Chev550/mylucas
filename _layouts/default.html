@@ -10,6 +10,10 @@
 
 		<p class="small gray">
 			lucas &raquo; {{ page.title }}
+
+			{% if page.url contains 'blog' %}
+			<a class="pull-right" href="{{ site.baserul }}/archive.html">archive</a>
+			{% endif %}
 		</p>
 
 		<br>
