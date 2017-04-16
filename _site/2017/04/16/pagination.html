@@ -75,7 +75,10 @@
 
 <p>With many websites, especially blogs, it’s very common to break the main listing of posts up into smaller lists and display them over multiple pages. Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings<sup id="fnref:pag"><a href="#fn:pag" class="footnote">1</a></sup>.</p>
 
-<p>For Jekyll 3, include the <code>jekyll-paginate</code> plugin in your Gemfile and in your <code>_config.yml</code> under <code>gems</code>. For Jekyll 2, this is standard.</p>
+<p>For Jekyll 3, include the <code>jekyll-paginate</code> plugin in your Gemfile and in your <code>_config.yml</code> under <code>gems</code>. For Jekyll 2, this is standard:</p>
+
+<pre><code>gems: [jekyll-paginate]
+</code></pre>
 
 <blockquote>
   <p>Pagination does not work from within Markdown or Textile files from your Jekyll site. Pagination works when called from within the HTML file, named <code>index.html</code>, which optionally may reside in and produce pagination from within a subdirectory, via the <code>paginate_path</code> configuration value.</p>
