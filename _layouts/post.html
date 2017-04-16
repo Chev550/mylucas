@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h3 class="normalWeight">{{ page.title }}</h3>
+<h3>{{ page.title }}</h3>
 <p class="gray">
 	<span>{{ page.date | date_to_string }}</span> /
 	{% include post_tags.html %}
@@ -11,7 +11,7 @@ layout: default
 
 {{ content }}
 
-<hr>
+<br><br>
 {% include pages.html %}
 
 <hr>
