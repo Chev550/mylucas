@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
-	<title>lucas li | config</title>
+	<title>lucas li | miscellaneous</title>
 	
 
 	<!-- ====================== Bootstrap core css ========================= -->
@@ -55,7 +55,7 @@
 </header>
 
 		<p class="small gray">
-			lucas &raquo; config
+			lucas &raquo; miscellaneous
 
 			
 		</p>
@@ -63,29 +63,79 @@
 		<br>
 
 		<p>
-	<a href="https://statcounter.com/login/" target="_blank">
-		<span class="glyphicon glyphicon-stats"></span>
-	</a>
-	<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=10026189; 
-var sc_invisible=0; 
-var sc_security="1e05e198"; 
-var sc_text=2; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="shopify site
-analytics" href="http://statcounter.com/shopify/"
-target="_blank"><img class="statcounter"
-src="//c.statcounter.com/10026189/0/1e05e198/0/"
-alt="shopify site analytics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+	<a href="">music</a> /
+	<a href="https://statcounter.com/login/" target="_blank">stats</a>
 </p>
 
+<audio id="audio" preload="auto" tabindex="0" controls=""></audio>
+<ol id="playlist">
+	
+	<li>
+		<a href="/assets/mp3/Hillsong_United-Mighty_To_Save.mp3">Hillsong United - Mighty To Save</a>
+	</li>
+	
+	<li>
+		<a href="/assets/mp3/Hillsong_United-Oceans.mp3">Hillsong United - Oceans</a>
+	</li>
+	
+	<li>
+		<a href="/assets/mp3/Newsboys-In_Christ_Alone.mp3">Newsboys - In Christ Alone</a>
+	</li>
+	
+	<li>
+		<a href="/assets/mp3/Michael_W._Smith-Above_All.mp3">Michael W. Smith - Above All</a>
+	</li>
+	
+	<li>
+		<a href="/assets/mp3/Matt_Redman-10000_Reasons.mp3">Matt Redman - 10,000 Reasons</a>
+	</li>
+	
+	<li>
+		<a href="/assets/mp3/Matt_Redman-Fires.mp3">Matt Redman - Fires</a>
+	</li>
+	
+</ol>
+
+
+<script type="text/javascript">
+var audio;
+var playlist;
+var tracks;
+var current;
+
+init();
+function init(){
+	current = 0;
+	audio = $('#audio');
+	playlist = $('#playlist');
+	tracks = playlist.find('li a');
+	len = tracks.length - 1;
+	audio[0].play();
+	playlist.find('a').click(function(e){
+		e.preventDefault();
+		link = $(this);
+		current = link.parent().index();
+		run(link, audio[0]);
+	});
+	audio[0].addEventListener('ended',function(e){
+		current++;
+		if(current == len){
+			current = 0;
+			link = playlist.find('a')[0];
+		}else{
+			link = playlist.find('a')[current];    
+		}
+		run($(link),audio[0]);
+	});
+}
+function run(link, player){
+	player.src = link.attr('href');
+	par = link.parent();
+	par.addClass('active').siblings().removeClass('active');
+	audio[0].load();
+	audio[0].play();
+}
+</script>
 
 		<footer class="small">
 	<hr>
@@ -104,7 +154,7 @@ alt="shopify site analytics"></a></div></noscript>
 	lucas li. all rights reserved.
 	
 	
-	<a href="/config.html"><span class="glyphicon glyphicon-cog"></span></a>
+	<a href="/miscellaneous.html"><span class="glyphicon glyphicon-th"></span></a>
 
 	<!--a id="toCH">中文</a-->
 </footer>
