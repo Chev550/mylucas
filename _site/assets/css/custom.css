@@ -193,7 +193,7 @@ ul.timeline .dot {
 	background: white;
 	width: 1em;
 	height: 1em;
-	border: 0.2em solid #999;
+	border: 0.2em solid gray;
 	border-radius: 50%;
 	position: absolute;
 	left: -0.6em;
