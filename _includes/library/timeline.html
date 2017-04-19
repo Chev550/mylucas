@@ -1,0 +1,15 @@
+<ul class="timeline">
+	{% for event in site.timeline %}
+	<li>
+		<div class="dot"></div>
+		<div class="time gray small">
+			<span class="glyphicon glyphicon-time"></span> {{ event.time }}
+			<span class="glyphicon glyphicon-map-marker"></span> {{ event.place }}
+		</div>
+		<div class="content">
+			{{ event.content }}<br>
+			<span class="gray">{{ event.subcontent }}</span>
+		</div>
+	</li>
+	{% endfor %}
+</ul>

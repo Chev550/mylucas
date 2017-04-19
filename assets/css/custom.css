@@ -178,4 +178,24 @@ nav h3 a:hover {
 
 
 
+/* timeline
+-------------------------------------------------- */
+ul.timeline {
+	list-style-type: none;
+	position: relative;
+	border-left: 2px solid #ccc;
+	margin-left: 4em;
+}
+ul.timeline li {
+	padding: 1em 0;
+}
+ul.timeline .dot {
+	background: white;
+	width: 1em;
+	height: 1em;
+	border: 0.2em solid #999;
+	border-radius: 50%;
+	position: absolute;
+	left: -0.6em;
+}
 
