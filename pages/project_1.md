@@ -1,11 +1,6 @@
 ---
 layout: default
-title:  "Building Integrated Solar Thermal Shading Application"
-categories: blog
-tag:
-- research
-- building
-- solar
+title:  "Performance evaluation of building integrated solar thermal shading system"
 ---
 
 <h3 class="normalWeight">{{ page.title }}</h3>
