@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Here is the code template I am using to make a chronological archive1.            “Jekyll archives grouped by date”, mikerowecode. &#8617;      ">
-	<title>lucas li | Group posts by year</title>
+	<meta name="description" content="">
+	<title>lucas li | blog</title>
 	
 
 	<!-- ====================== Bootstrap core css ========================= -->
@@ -55,62 +55,56 @@
 </header>
 
 		<p class="small gray">
-			lucas &raquo; Group posts by year
+			lucas &raquo; blog
 
+			
+			<a class="pull-right" href="/archive.html">archive</a>
 			
 		</p>
 
 		<br>
 
-		<h3>Group posts by year</h3>
-<p class="gray">
-	<span>11 May 2016</span> /
-	
+		
+<div class="blogItem">
+	<h4><a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a></h4>
+	<p class="gray">
+		20 Mar 2016 /
+		
 
 
 <span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
 
-</p>
-<br>
-
-<p>Here is the code template I am using to make a chronological archive<sup id="fnref:mik"><a href="#fn:mik" class="footnote">1</a></sup>.</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for post in site.categories.[page.category] %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-	
-{% if forloop.first %}
-<span class="nt">&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% elsif year != nyear %}
-<span class="nt">&lt;/ul&gt;&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% endif %}
-
-<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{site.baseurl}}{{post.url}}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
-{{ post.date | date: "%-m/%-d/%y" }}<span class="nt">&lt;/li&gt;</span>
-{% endfor %}
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:mik">
-      <p><a href="http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html">“Jekyll archives grouped by date”</a>, mikerowecode. <a href="#fnref:mik" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
+	</p>
+	<p>If your blog lists all posts in only one section, you can always use {{post.previous.url}} and {{post.next.url}} to make links to previous and next posts1. However, sometimes we group our posts in defferent sections by category. In this case, post.previous and post.next are no longer handy to navigate because they...
+		<a href="/2016/03/20/previous-next-post-within-a-category.html">more &raquo;</a>
+	</p>
 </div>
 
 
-<br><br>
-
-
-<a class="btn btn-xs btn-default" href="/2016/03/20/previous-next-post-within-a-category.html">&laquo; Prev</a>
 
 
 
-<a class="btn btn-xs btn-default pull-right" href="/2017/04/16/pagination.html">Next &raquo;</a>
+<br>
 
+<div class="pagination">
+	
+	<a class="btn btn-xs btn-default" href="/blog/">&laquo; Prev</a>
+	
 
+	
+	
+	<a href="/blog/">1</a>
+	
+	
+	
+	<em>2</em>
+	
+	
 
-
+	
+	<span class="btn btn-xs btn-default disabled">Next &raquo;</span>
+	
+</div>
 
 
 		<footer class="small">

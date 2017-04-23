@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making the Connection to MySQL with Java"
+title: "Making the connection to MySQL with Java"
 tags:
 - mysql
 - java
