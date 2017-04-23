@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Previous/next post within a category"
+title: "Previous/Next Post within a Category"
 tags: 
 - jekyll
 ---

@@ -66,17 +66,34 @@
 
 		
 <div class="blogItem">
-	<h4><a href="/2017/04/19/let-it-go.html">Let it go</a></h4>
+	<h4><a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the Connection to MySQL with Java</a></h4>
 	<p class="gray">
-		19 Apr 2017 /
+		22 Apr 2017 /
 		
 
 
-<span class="post-tags"><a href="/tags/#life">#life</a></span>
+<span class="post-tags"><a href="/tags/#mysql">#mysql</a></span>,
+
+<span class="post-tags"><a href="/tags/#java">#java</a></span>
 
 	</p>
-	<p>No messages, no responses. This must be the most despairing moment in my life. I just realized that how stupid I was to send out that email, and how terrible of me to say those rude words. For sure, he could never be my boyfriend. This is not simply because...
-		<a href="/2017/04/19/let-it-go.html">more &raquo;</a>
+	<p>Java has libraries for connecting to and working with SQL databases built right in to the standard Java SDK. This article assumes some knowledge of Java, and that you’re here to figure out how to work with a database1. This is the code to connect to a MySQL database server...
+		<a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">more &raquo;</a>
+	</p>
+</div>
+
+<div class="blogItem">
+	<h4><a href="/2017/04/22/installing-mysql-on-macos.html">Installing MySQL on MacOS</a></h4>
+	<p class="gray">
+		22 Apr 2017 /
+		
+
+
+<span class="post-tags"><a href="/tags/#mysql">#mysql</a></span>
+
+	</p>
+	<p>Oracle’s MySQL is a popular open source relational database management system that is based on Structured Query Language (SQL). Installing MySQL on an Mac is easier than you might expect, particularly if you use the native installation package instead of the TAR package, which requires access and changes to the...
+		<a href="/2017/04/22/installing-mysql-on-macos.html">more &raquo;</a>
 	</p>
 </div>
 
@@ -96,17 +113,32 @@
 </div>
 
 <div class="blogItem">
-	<h4><a href="/2017/01/24/hey-dude.html">Hey dude</a></h4>
+	<h4><a href="/2016/05/11/group-posts-by-year.html">Group Posts by Year</a></h4>
 	<p class="gray">
-		24 Jan 2017 /
+		11 May 2016 /
 		
 
 
-<span class="post-tags"><a href="/tags/#life">#life</a></span>
+<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
 
 	</p>
-	<p>Hey dude, Sorry to bother but I do need a clarification from you to avoid further misunderstanding. I thought I got a clear answer last time, which is indicative enough for me to dislike you and ignore you. That’s actually what I have been doing until recently you came back...
-		<a href="/2017/01/24/hey-dude.html">more &raquo;</a>
+	<p>Here is the code template I am using to make a chronological archive1. {% for post in site.categories.[page.category] %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if forloop.first %} &lt;p&gt;{{ year }}&lt;/p&gt;&lt;ul&gt; {% elsif...
+		<a href="/2016/05/11/group-posts-by-year.html">more &raquo;</a>
+	</p>
+</div>
+
+<div class="blogItem">
+	<h4><a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/Next Post within a Category</a></h4>
+	<p class="gray">
+		20 Mar 2016 /
+		
+
+
+<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
+
+	</p>
+	<p>If your blog lists all posts in only one section, you can always use {{post.previous.url}} and {{post.next.url}} to make links to previous and next posts1. However, sometimes we group our posts in defferent sections by category. In this case, post.previous and post.next are no longer handy to navigate because they...
+		<a href="/2016/03/20/previous-next-post-within-a-category.html">more &raquo;</a>
 	</p>
 </div>
 
@@ -115,26 +147,6 @@
 
 
 <br>
-
-<div class="pagination">
-	
-	<span class="btn btn-xs btn-default disabled">&laquo; Prev</span>
-	
-
-	
-	
-	<em>1</em>
-	
-	
-	
-	<a href="/blog/page2">2</a>
-	
-	
-
-	
-	<a class="btn btn-xs btn-default" href="/blog/page2">Next &raquo;</a>
-	
-</div>
 
 
 		<footer class="small">
