@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
-	<title>lucas li | archive</title>
+	<title>lucas li | blog</title>
 	
 
 	<!-- ====================== Bootstrap core css ========================= -->
@@ -55,139 +55,75 @@
 </header>
 
 		<p class="small gray">
-			lucas &raquo; archive
+			lucas &raquo; blog
 
+			
+			<a class="pull-right" href="/archive.html">archive</a>
 			
 		</p>
 
 		<br>
 
 		
+<div class="blogItem">
+	<h4><a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a></h4>
+	<p class="gray">
+		11 May 2016 /
+		
 
 
+<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
 
+	</p>
+	<p>Here is the code template I am using to make a chronological archive1. {% for post in site.categories.[page.category] %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if forloop.first %} &lt;p&gt;{{ year }}&lt;/p&gt;&lt;ul&gt; {% elsif...
+		<a href="/2016/05/11/group-posts-by-year.html">more &raquo;</a>
+	</p>
+</div>
 
-<h4>2017</h4><ul>
+<div class="blogItem">
+	<h4><a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a></h4>
+	<p class="gray">
+		20 Mar 2016 /
+		
 
 
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/water-efficiency.html">Water efficiency</a>
-</li>
+<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
 
+	</p>
+	<p>If your blog lists all posts in only one section, you can always use {{post.previous.url}} and {{post.next.url}} to make links to previous and next posts1. However, sometimes we group our posts in defferent sections by category. In this case, post.previous and post.next are no longer handy to navigate because they...
+		<a href="/2016/03/20/previous-next-post-within-a-category.html">more &raquo;</a>
+	</p>
+</div>
 
 
 
 
 
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/sustainable-sites.html">Sustainable sites</a>
-</li>
+<br>
 
+<div class="pagination">
+	
+	<a class="btn btn-xs btn-default" href="/blog/page2">&laquo; Prev</a>
+	
 
+	
+	
+	<a href="/blog/page2">1</a>
+	
+	
+	
+	<a href="/blog/page2">2</a>
+	
+	
+	
+	<em>3</em>
+	
+	
 
-
-
-
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/setting-up-a-custom-domain-for-your-github-site.html">Setting up a custom domain for your GitHub site</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/location-and-transportation.html">Location and transportation</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/leed-process.html">LEED process</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/integrative-strategies.html">Integrative strategies</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">23 Apr 2017</span>
-	<a href="/2017/04/23/energy-and-atmosphere.html">Energy and atmosphere</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">22 Apr 2017</span>
-	<a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the connection to MySQL with Java</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">22 Apr 2017</span>
-	<a href="/2017/04/22/installing-mysql-on-macos.html">Installing MySQL on MacOS</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">16 Apr 2017</span>
-	<a href="/2017/04/16/pagination.html">Pagination</a>
-</li>
-
-
-
-
-
-</ul><h4>2016</h4><ul>
-
-
-<li>
-	<span class="gray pull-right">11 May 2016</span>
-	<a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a>
-</li>
-
-
-
-
-
-
-<li>
-	<span class="gray pull-right">20 Mar 2016</span>
-	<a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a>
-</li>
-
-</ul>
+	
+	<span class="btn btn-xs btn-default disabled">Next &raquo;</span>
+	
+</div>
 
 
 		<footer class="small">
