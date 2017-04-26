@@ -62,11 +62,16 @@ __What role does a LEED AP have on a project?__
 
 __What do the ASHRAE standards do, and where are they used?__
 
+Several LEED credits and prerequisites require meeting the American Society of Heating, Refrigerating and Air-Conditioning Engineers, Inc. ASHRAE (pronounced “ash-ray”) publishes a widely recognized series of standards and guidelines relating to energy consumption and HVAC systems & issues every three years.
+
 __What is the Green Seal standard, and what type of material does it address?__
+
+Green Seal is an independent nonprofit organization that promotes the manufacture and sale of environmentally responsible consumer products. In LEED Green seal usually is used as the standard for low VOC materials and green cleaning.
 
 __What is SMACNA and where is it used in the construction process?__
 
+The Sheet Metal and Air Conditioning National Contractors Association (SMACNA) has a set of indoor air quality guidelines that are used to help manage air quality issues resulting from construction and renovation.
+
 __What standard is used for certified wood?__
 
-
-
+The Forest Stewardship Council (FSC) is an international non-profit, multi-stakeholder organization that promotes responsible management of the world’s forests. LEED projects using wood certified by FSC can earn points in the Materials and Resources category.

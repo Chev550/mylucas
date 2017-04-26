@@ -45,6 +45,8 @@ __Who triggers a demand response event?__
 
 __What are carbon offsets measured in?__
 
+A carbon offset is a unit of carbon dioxide equivalent that is reduced, avoided, or sequestered to compensate for emissions occurring elsewhere. Carbon offsets are quantified and sold in metric tonnes of carbon dioxide equivalent (CO2e).
+
 ---
 
 #### Environmental concerns
