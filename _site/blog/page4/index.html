@@ -16,7 +16,6 @@
 	<!-- Custom css -->
 	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
-	
 	<!-- ================== Bootstrap core JavaScript ==================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<!--script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script-->
@@ -65,6 +64,21 @@
 		<br>
 
 		
+<div class="blogItem">
+	<h4><a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a></h4>
+	<p class="gray">
+		11 May 2016 /
+		
+
+
+<span class="post-tags"><a href="/tags/#jekyll">#jekyll</a></span>
+
+	</p>
+	<p>Here is the code template I am using to make a chronological archive1. {% for post in site.categories.[page.category] %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if forloop.first %} &lt;p&gt;{{ year }}&lt;/p&gt;&lt;ul&gt; {% elsif...
+		<a href="/2016/05/11/group-posts-by-year.html">more &raquo;</a>
+	</p>
+</div>
+
 <div class="blogItem">
 	<h4><a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a></h4>
 	<p class="gray">

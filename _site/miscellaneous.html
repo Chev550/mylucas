@@ -16,7 +16,6 @@
 	<!-- Custom css -->
 	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
-	
 	<!-- ================== Bootstrap core JavaScript ==================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<!--script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script-->
@@ -63,11 +62,11 @@
 		<br>
 
 		<ul class="nav nav-tabs">
-	<li class="active"><a href="#resources" data-toggle="tab" aria-expanded="true">resources</a></li>
+	<li class="active"><a href="#music" data-toggle="tab" aria-expanded="false">music</a></li>
 
-	<li class=""><a href="#music" data-toggle="tab" aria-expanded="false">music</a></li>
+	<li class=""><a href="#resources" data-toggle="tab" aria-expanded="false">resources</a></li>
 
-	<li class=""><a href="#tools" data-toggle="tab" aria-expanded="false">tools</a></li>
+	<li class=""><a href="#tools" data-toggle="tab" aria-expanded="ture">tools</a></li>
 
 	
 	
@@ -87,7 +86,7 @@
 
 
 <div id="myTabContent" class="tab-content">
-	<div class="tab-pane fade active in" id="resources">
+	<div class="tab-pane fade" id="resources">
 		<br>
 		<h4>LEED</h4>
 <ul>
@@ -116,86 +115,105 @@
 </ul>
 	</div>
 
-	<div class="tab-pane fade" id="music">
+	<div class="tab-pane fade active in" id="music">
 		<br>
-		<audio id="audio" preload="auto" tabindex="0" controls=""></audio>
-<ol id="playlist">
-	
-	<li>
-		<a href="/assets/mp3/Hillsong_United-Mighty_To_Save.mp3">Hillsong United - Mighty To Save</a>
-	</li>
-	
-	<li>
-		<a href="/assets/mp3/Hillsong_United-Oceans.mp3">Hillsong United - Oceans</a>
-	</li>
-	
-	<li>
-		<a href="/assets/mp3/Newsboys-In_Christ_Alone.mp3">Newsboys - In Christ Alone</a>
-	</li>
-	
-	<li>
-		<a href="/assets/mp3/Michael_W._Smith-Above_All.mp3">Michael W. Smith - Above All</a>
-	</li>
-	
-	<li>
-		<a href="/assets/mp3/Matt_Redman-10000_Reasons.mp3">Matt Redman - 10,000 Reasons</a>
-	</li>
-	
-	<li>
-		<a href="/assets/mp3/Matt_Redman-Fires.mp3">Matt Redman - Fires</a>
-	</li>
-	
-</ol>
+		<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>music</title>
+    <link rel="stylesheet" href="/import/music/css/style.css"/>
+    <link rel="stylesheet" href="/import/music/css/styles.css"/>
+</head>
 
+<body>
+    <div id="example-wrapper">
+        <ul id="example-size-picker" data-size="full">
+            <li data-size="mobile"><span class="glyphicon glyphicon-resize-small"></span></li>
+            <li data-size="full"><span class="glyphicon glyphicon-fullscreen"></span></li>
+        </ul>
+
+        <div id="example-outer">
+            <div id="example" data-size="full"></div>
+        </div>
+    </div>
+
+
+<script src="/import/music/js/jquery.min.js"></script>
+<script src="/import/music/js/ttw-clarity-player.js"></script>
+<script src="/import/music/js/yepnope.js"></script>
 
 <script type="text/javascript">
-var audio;
-var playlist;
-var tracks;
-var current;
+$(function () {
+    var myPlaylist = [
+    {
+        mp3:'/import/music/playlist/TheChainsmokersColdplay-SomethingJustLikeThis.mp3',
+        duration:'4:07',
+        cover:'/import/music/playlist/covers/SomethingJustLikeThis.png',
+        title:'Something Just Like This',
+        artist:'The Chainsmokers & Coldplay',
+    },
 
-init();
-function init(){
-	current = 0;
-	audio = $('#audio');
-	playlist = $('#playlist');
-	tracks = playlist.find('li a');
-	len = tracks.length - 1;
-	audio[0].play();
-	playlist.find('a').click(function(e){
-		e.preventDefault();
-		link = $(this);
-		current = link.parent().index();
-		run(link, audio[0]);
-	});
-	audio[0].addEventListener('ended',function(e){
-		current++;
-		if(current == len){
-			current = 0;
-			link = playlist.find('a')[0];
-		}else{
-			link = playlist.find('a')[current];    
-		}
-		run($(link),audio[0]);
-	});
-}
-function run(link, player){
-	player.src = link.attr('href');
-	par = link.parent();
-	par.addClass('active').siblings().removeClass('active');
-	audio[0].load();
-	audio[0].play();
-}
+    {
+        mp3:'/import/music/playlist/OneRepublic-LoveRunsOut.mp3',
+        duration:'3:45',
+        cover:'/import/music/playlist/covers/OneRepublic-LoveRunsOut.png',
+        title:'Love Runs Out',
+        artist:'One Republic',
+    },
+
+    {
+        mp3:'/import/music/playlist/TheBeatles-HeyJude.mp3',
+        duration:'7:11',
+        cover:'/import/music/playlist/covers/TheBeatles-HeyJude.png',
+        title:'Hey Jude',
+        artist:'The Beatles',
+    },
+
+    {
+        mp3:'/import/music/playlist/TaoPaoJiHua-YeKongZhongZuiLiangDeXing.mp3',
+        duration:'4:12',
+        cover:'/import/music/playlist/covers/TaoPaoJiHua.png',
+        title:'夜空中最亮的星',
+        artist:'逃跑计划',
+    },
+
+    {
+        mp3:'/import/music/playlist/XueZhiQian-ChouBaGuai.mp3',
+        duration:'4:08',
+        cover:'/import/music/playlist/covers/XueZhiQian-YiWai.png',
+        title:'丑八怪',
+        artist:'薛之谦',
+    },
+
+    ];
+
+    var clarity = $('#example').ttwClarityPlayer(myPlaylist,{
+        jPlayer:{
+           supplied:'mp3',
+           errorAlerts:true,	
+           autoPlay:true,				
+           warningAlerts:true,
+           consoleAlerts:true
+       }
+   });
+
+    $('#example-size-picker').on('click', 'li', function(){
+        $('#example').attr('data-size', $(this).data('size'));
+        clarity.manageLayout();
+        $('#example-size-picker').attr('data-size', $(this).data('size'));
+        clarity.manageLayout();
+    });
+});
 </script>
+
+</body>
+</html>
 	</div>
 
 	<div class="tab-pane fade" id="tools">
 		<br>
-		<h4>convert units</h4>
-
-<form>
-	<input> K = <input> °C
-</form>
 	</div>
 
 	<!--div class="tab-pane fade" id="dropdown1">
