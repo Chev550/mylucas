@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 #example-size-picker[data-size=mobile]{
-    width: 322px;
+    width: 320px;
 }
 
 #example-size-picker ul {
@@ -46,6 +46,6 @@
 }
 
 #example[data-size=mobile]{
-    height: 570px;
-    width: 322px;
+    height: 480px;
+    width: 320px;
 }
