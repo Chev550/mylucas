@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
+	<meta name="description" content="Residential features">
 	<title>lucas | Residential cooling and heating load calculations</title>
 	
 
@@ -73,6 +73,76 @@
 </p>
 <br>
 
+<h4 id="residential-features">Residential features</h4>
+
+<p>The following unique features distinguish residences from other types of buildings:</p>
+
+<ul>
+  <li>Smaller internal heat gains</li>
+  <li>Varied use of spaces</li>
+  <li>Fewer zones</li>
+  <li>Greater distribution losses</li>
+  <li>Partial loads</li>
+  <li>Dehumidification issues</li>
+  <li>Single-family detached vs. Multifamily</li>
+</ul>
+
+<hr />
+
+<h4 id="design-conditions">Design conditions</h4>
+
+<p>The initial step in the load calculation is selecting indoor and outdoor design conditions.</p>
+
+<p><em>Indoor Conditions</em></p>
+
+<ul>
+  <li>Cooling: <code>24°C db</code> and a maximum of <code>50 to 65% rh</code>.</li>
+  <li>Heating: <code>20°C db</code> and <code>30% rh</code>.</li>
+</ul>
+
+<p><em>Outdoor Conditions</em></p>
+
+<ul>
+  <li>Cooling: <code>1%</code> design dry-bulb temperature and mean coincident wet bulb temperature; <code>3.4 m/s</code> wind speed; hottest-month dry-bulb temperature daily range.</li>
+  <li>Heating: <code>99%</code> design dry-bulb temperature.</li>
+</ul>
+
+<hr />
+
+<h4 id="cooling-load">Cooling Load</h4>
+
+<p><em>Sensible cooling load:</em></p>
+
+<ol>
+  <li>Exterior opaque surfaces</li>
+  <li>Exterior transparent fenestration surfaces</li>
+  <li>Partitions to unconditioned buffer space</li>
+  <li>Ventilation/infiltration</li>
+  <li>Occupants and appliances</li>
+  <li>Distribution</li>
+</ol>
+
+<p><em>Latent cooling load:</em></p>
+
+<ol>
+  <li>Ventilation/infiltration</li>
+  <li>Internal gain (occupants, cooking, laundry, and bathing)</li>
+</ol>
+
+<hr />
+
+<h4 id="heating-load">Heating Load</h4>
+
+<p>Heating calculations use simple worst-case assumptions, ignoring solar and internal gains, and building heat storage. With these simplifications, the heating problem is reduced to a basic <code>UAΔt</code> calculation.</p>
+
+<ol>
+  <li>Exterior surfaces above grade</li>
+  <li>Partitions to unconditioned buffer space</li>
+  <li>Walls below grade</li>
+  <li>Floors on grade</li>
+  <li>Floors below grade</li>
+  <li>Ventilation/infiltration</li>
+</ol>
 
 
 
