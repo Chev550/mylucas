@@ -3,11 +3,47 @@ layout: default
 title: "radio"
 ---
 
+<form>
+	<p>
+		Channel
+		<select id="channel">
+			<option value="977todayshits">977 - Today's Hits</option>
+			<!--option value="bbcworldservice">BBC World Service</option-->
+		</select>
+		<!--input type="submit" class="btn btn-xs btn-default" value="Go"-->
+	</p>
+</form>
+
+
+
+
 <script>
 (function(d, s){if(!window.rel){s = d.createElement("script");s.type = "text/javascript";s.async = true;s.id = "radio-de-embedded";s.src = "//www.radio.net/inc/microsite/js/full.js";d.getElementsByTagName("head")[0].appendChild(s);window.rel = true;}}(document));
 </script>
 
 <div class="ng-app-embedded">
-	<div ui-view class="microsite embedded-radio-player" data-playerwidth="100%" data-playertype="web_embedded" data-playstation="977todayshits" data-autoplay="faulse" data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+	<div id="player" ui-view class="microsite embedded-radio-player" data-playerwidth="100%" data-playertype="web_embedded" data-playstation="" data-autoplay="true" data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
 	</div>
 </div>
+
+
+
+
+
+<div id="test"></div>
+
+<script type="text/javascript">
+var channel = document.getElementById("channel");
+var index = channel.selectedIndex;
+var station = channel.options[index].value;
+var playstation = document.getElementById("player");
+playstation.setAttribute("data-playstation", station);
+
+function go(x) {
+	var index = x.selectedIndex;
+	var station = x.options[index].value;
+	var playstation = document.getElementById("player");
+	playstation.setAttribute("data-playstation", station);
+	document.getElementById("test").innerHTML=station;
+}
+</script>
