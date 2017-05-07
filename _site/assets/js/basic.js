@@ -33,7 +33,7 @@ $(window).scroll(function() {
 
 
 
-// House Description -- English and Chinese
+// Hide and Show
 function show(){
 	$("#footer1").hide();
 	$("#footer2").show();
