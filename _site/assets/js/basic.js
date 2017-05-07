@@ -34,12 +34,12 @@ $(window).scroll(function() {
 
 
 // House Description -- English and Chinese
-function chn(){
-	$("div#eng").hide();
-	$("div#chn").toggle("slow");
+function show(){
+	$("#footer1").hide();
+	$("#footer2").show();
 	return false;
 }
-function eng(){
-	$("div#chn").hide();
-	$("div#eng").toggle("slow");
+function hide(){
+	$("#footer2").hide();
+	$("#footer1").show();
 }

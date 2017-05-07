@@ -62,11 +62,9 @@
 		<br>
 
 		<ul class="nav nav-tabs">
-	<li class="active"><a href="#music" data-toggle="tab" aria-expanded="false">music</a></li>
+	<li class="active"><a href="#resources" data-toggle="tab" aria-expanded="false">resources</a></li>
 
-	<li class=""><a href="#resources" data-toggle="tab" aria-expanded="false">resources</a></li>
-
-	<li class=""><a href="#tools" data-toggle="tab" aria-expanded="false">tools</a></li>
+	
 
 	
 	
@@ -86,7 +84,7 @@
 
 
 <div id="myTabContent" class="tab-content">
-	<div class="tab-pane fade" id="resources">
+	<div class="tab-pane fade active in" id="resources">
 		<br>
 		<h4>LEED</h4>
 <ul>
@@ -115,114 +113,11 @@
 </ul>
 	</div>
 
-	<div class="tab-pane fade active in" id="music">
+	<div class="tab-pane fade" id="">
 		<br>
-		<!doctype html>
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>music</title>
-    <link rel="stylesheet" href="/imports/music/css/style.css"/>
-    <link rel="stylesheet" href="/imports/music/css/styles.css"/>
-    <script src="/imports/music/js/jquery.min.js"></script>
-    <script src="/imports/music/js/ttw-clarity-player.js"></script>
-    <script src="/imports/music/js/yepnope.js"></script>
-</head>
-
-<body>
-    <div id="example-wrapper">
-        <!--ul id="example-size-picker" data-size="full">
-            <li data-size="mobile"><span class="glyphicon glyphicon-resize-small"></span></li>
-            <li data-size="full"><span class="glyphicon glyphicon-fullscreen"></span></li>
-        </ul-->
-
-        <div id="example-outer">
-            <div id="example" data-size="full"></div>
-        </div>
-    </div>
-
-
-    <script type="text/javascript">
-    $(function () {
-        var myPlaylist = [
-        {
-            mp3:'/imports/music/playlist/TheChainsmokersColdplay-SomethingJustLikeThis.mp3',
-            duration:'4:07',
-            cover:'/imports/music/playlist/covers/SomethingJustLikeThis.png',
-            title:'Something Just Like This',
-            artist:'The Chainsmokers & Coldplay',
-        },
-
-        {
-            mp3:'/imports/music/playlist/OneRepublic-LoveRunsOut.mp3',
-            duration:'3:45',
-            cover:'/imports/music/playlist/covers/OneRepublic-LoveRunsOut.png',
-            title:'Love Runs Out',
-            artist:'One Republic',
-        },
-
-        {
-            mp3:'/imports/music/playlist/TheBeatles-HeyJude.mp3',
-            duration:'7:11',
-            cover:'/imports/music/playlist/covers/TheBeatles-HeyJude.png',
-            title:'Hey Jude',
-            artist:'The Beatles',
-        },
-
-        {
-            mp3:'/imports/music/playlist/AndrewLloydWebber-ThePhantomOfTheOpera.mp3',
-            duration:'4:23',
-            cover:'/imports/music/playlist/covers/AndrewLloydWebber-ThePhantomOfTheOpera.jpg',
-            title:'The Phantom of the Opera',
-            artist:'Andrew Lloyd Webber',
-        },
-
-        {
-            mp3:'/imports/music/playlist/TaoPaoJiHua-YeKongZhongZuiLiangDeXing.mp3',
-            duration:'4:12',
-            cover:'/imports/music/playlist/covers/TaoPaoJiHua.png',
-            title:'夜空中最亮的星',
-            artist:'逃跑计划',
-        },
-
-        {
-            mp3:'/imports/music/playlist/XueZhiQian-ChouBaGuai.mp3',
-            duration:'4:08',
-            cover:'/imports/music/playlist/covers/XueZhiQian-YiWai.png',
-            title:'丑八怪',
-            artist:'薛之谦',
-        },
-
-        ];
-
-        var clarity = $('#example').ttwClarityPlayer(myPlaylist,{
-            jPlayer:{
-             supplied:'mp3',
-             errorAlerts:true,	
-             autoPlay:true,				
-             warningAlerts:true,
-             consoleAlerts:true
-         }
-     });
-
-        $('#example-size-picker').on('click', 'li', function(){
-            $('#example').attr('data-size', $(this).data('size'));
-            clarity.manageLayout();
-            $('#example-size-picker').attr('data-size', $(this).data('size'));
-            clarity.manageLayout();
-        });
-    });
-</script>
-
-</body>
-</html>
 	</div>
 
-	<div class="tab-pane fade" id="tools">
-		<br>
-		
-	</div>
+
 
 
 	<!--div class="tab-pane fade" id="dropdown1">
@@ -237,24 +132,24 @@
 	<hr>
 	<p>
 		<a href="/contact.html">contact</a> /
-		<a href="/miscellaneous.html">miscellaneous</a> /
 		<a href="https://www.facebook.com/lucaslionline/" target="_blank">facebook</a> /
-		<a href="https://www.linkedin.com/in/lucaslionline/" target="_blank">linkedin</a>
+		<a href="https://www.linkedin.com/in/lucaslionline/" target="_blank">linkedin</a> /
+		<a id="footer1" href="javascript:;" onclick="show()">explore</a>
+
+		<span id="footer2" style="display:none;">
+			<a href="/imports/music.html">music</a> /
+			<a href="/imports/radio.html">radio</a> /
+			<a href="/miscellaneous.html">misc</a>
+		</span>
 	</p>
 
 
 	<span>&copy;</span>
 	<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
 	lucas li. all rights reserved.
-
-	<!--a id="toCH">中文</a-->
 </footer>
 
-<script type="text/javascript">
-var URL = window.location.href;
-var newURL = URL.replace("/en", "/ch");
-document.getElementById("toCH").href = newURL;
-</script>
+
 	</div>
 </body>
 </html>
