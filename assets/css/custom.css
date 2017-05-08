@@ -1,3 +1,38 @@
+.launchpad {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.file {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px 20px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	vertical-align: top;
+}
+.file:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color: #adadad;
+	text-decoration: none;
+	color: white;
+}
+.file {
+	width: 100px;
+	color: white;
+}
+input.search {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 3px;
+	margin: 20px;
+	padding: 0 0.5em;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+
 
 .gray {
 	color: gray;
@@ -9,7 +44,9 @@
 .normalWeight {
 	font-weight: normal;
 }
-
+.margin-auto {
+	margin: 0 auto;
+}
 
 .clearance {
 	margin-top: 20px;
@@ -166,18 +203,18 @@ nav h3 a:hover {
 /* gallery
 -------------------------------------------------- */
 .my-gallery {
-  width: 100%;
-  float: left;
+	width: 100%;
+	float: left;
 }
 .my-gallery img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1em;
+	width: 100%;
+	height: auto;
+	margin-bottom: 1em;
 }
 .my-gallery figure {
 }
 .my-gallery figcaption {
-  display: none;
+	display: none;
 }
 
 
