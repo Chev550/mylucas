@@ -172,8 +172,8 @@ img.profile {
 .contact input, 
 .contact textarea {
 	border: 0;
-	border-bottom: 1px dotted #ccc;
-	color: #ccc;
+	border-bottom: 1px dotted rgba(0,0,0, 0.5);
+	color: rgba(0,0,0, 0.5);
 	width: 100%;
 	display: block;
 	margin: 1em 0;

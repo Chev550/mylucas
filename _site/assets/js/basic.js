@@ -3,19 +3,19 @@
 function onFocus(x){
 	if (x.value == x.defaultValue){
 		x.value = '';
-		x.style.color = 'rgba(255, 255, 255, 0.8)';
+		x.style.color = 'rgba(0,0,0, 0.8)';
 	}
 	else if (x.value != x.defaultValue){
-		x.style.color = 'rgba(255, 255, 255, 0.8)';
+		x.style.color = 'rgba(0,0,0, 0.8)';
 	}
 }
 function onBlur(x){
 	if (x.value == ''){
 		x.value = x.defaultValue;
-		x.style.color = 'rgba(255, 255, 255, 0.5)';
+		x.style.color = 'rgba(0,0,0, 0.5)';
 	}
 	else if (x.value != ''){
-		x.style.color = 'rgba(255, 255, 255, 0.5)';
+		x.style.color = 'rgba(0,0,0, 0.5)';
 	}
 }
 
