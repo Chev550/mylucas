@@ -1,23 +1,21 @@
 ---
-title: "official website"
+title: "Official Website"
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%;">
 <head>
 	{% include head.html %}
 </head>
 
-<body>
-	<div class="cover">
-		<h3>lucas</h3>
-		<div class="coverNav">
-			<a href="{{ site.baseurl }}/about.html">about</a> /
-			<a href="{{ site.baseurl }}/blog/">blog</a> /
-			<a href="{{ site.baseurl }}/gallery.html">gallery</a>
-		</div>
-	</div>
+<body style="background: url('{{ site.baseurl }}/assets/img/bg3.jpg') center center; background-size: cover;">
+	<a class="file pull-right" href="javascript:;" onclick="show()">
+		<img src="{{ site.baseurl }}/assets/img/icon_launchpad.png"><br>
+		Launchpad
+	</a>
 
-	{% include launchpad.html %}
+	<div id="launchpad" style="display: none;" onclick="hide()">
+		{% include launchpad.html %}
+	</div>
 </body>
 </html>

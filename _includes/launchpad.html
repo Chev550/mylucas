@@ -1,10 +1,13 @@
 <div class="launchpad" style="background: url('{{ site.baseurl }}/assets/img/bg2.jpg') center center; background-size: cover;">
 	<div class="container">
-		<div class="row center">
-			<input class="search">
+		<div class="row center" style="z-index: 50;">
+			<form method="get" action="http://global.bing.com/search">
+				<input type="text" name="q" class="search" size="25"
+				maxlength="255" value="Bing" onfocus="onFocus(this)" onblur="onBlur(this)" />
+			</form>
 		</div>
 
-		<div class="row margin-auto">
+		<div class="row">
 			<a class="file" href="{{ site.baseurl }}/about.html">
 				<img src="{{ site.baseurl }}/assets/img/icon_about.png"><br>
 				About

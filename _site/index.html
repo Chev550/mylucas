@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%;">
 <head>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
-	<title>lucas | official website</title>
+	<title>lucas | Official Website</title>
 	
 
 	<!-- ====================== Bootstrap core css ========================= -->
@@ -40,23 +40,23 @@
 
 </head>
 
-<body>
-	<div class="cover">
-		<h3>lucas</h3>
-		<div class="coverNav">
-			<a href="/about.html">about</a> /
-			<a href="/blog/">blog</a> /
-			<a href="/gallery.html">gallery</a>
-		</div>
-	</div>
+<body style="background: url('/assets/img/bg3.jpg') center center; background-size: cover;">
+	<a class="file pull-right" href="javascript:;" onclick="show()">
+		<img src="/assets/img/icon_launchpad.png"><br>
+		Launchpad
+	</a>
 
-	<div class="launchpad" style="background: url('/assets/img/bg2.jpg') center center; background-size: cover;">
+	<div id="launchpad" style="display: none;" onclick="hide()">
+		<div class="launchpad" style="background: url('/assets/img/bg2.jpg') center center; background-size: cover;">
 	<div class="container">
-		<div class="row center">
-			<input class="search">
+		<div class="row center" style="z-index: 50;">
+			<form method="get" action="http://global.bing.com/search">
+				<input type="text" name="q" class="search" size="25"
+				maxlength="255" value="Bing" onfocus="onFocus(this)" onblur="onBlur(this)" />
+			</form>
 		</div>
 
-		<div class="row margin-auto">
+		<div class="row">
 			<a class="file" href="/about.html">
 				<img src="/assets/img/icon_about.png"><br>
 				About
@@ -114,5 +114,6 @@
 		</div>
 	</div>
 </div>
+	</div>
 </body>
 </html>

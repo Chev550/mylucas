@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%;">
 <head>
 	{% include head.html %}
 </head>
 
-<body>
+<body style="background: url('{{ site.baseurl }}/assets/img/bg3.jpg') center center fixed; background-size: cover;">
+	
+
 	<div class="container clearance">
-		{% include header.html %}
+		<div class="panel panel-default">
+			<div class="panel-heading center">
+				<span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;{{ page.title }}
 
-		<p class="small gray">
-			lucas &raquo; {{ page.title }}
+				<span class="pull-left">
+					<a class="btn btn-xs btn-danger dot" href="{{ site.baseurl }}/">&#10008</a>
+				</span>
+			</div>
 
-			{% if page.url contains 'blog' %}
-			<a class="pull-right" href="{{ site.baseurl }}/archive.html">archive</a>
-			{% endif %}
-		</p>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-8">
+						{{ content }}
+					</div>
 
-		<br>
-
-		{{ content }}
-
-		{% include footer.html %}
+					<div class="col-sm-4 side-bar">
+						hello<br>
+						how are you
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+</div>
 </body>
 </html>
