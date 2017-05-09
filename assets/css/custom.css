@@ -3,7 +3,7 @@
 	width: 100%;
 	position: absolute;
 	z-index: 50;
-	background: url('{{ site.baseurl }}/assets/img/bg4.jpg') center center;
+	background: url('../img/bg4.jpg') center center;
 	background-size: cover;
 }
 .file {
