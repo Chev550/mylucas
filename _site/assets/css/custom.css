@@ -134,8 +134,9 @@ nav {
 .nav-about li {
 	display: inline-block;
 }
-.nav-about > li.active > a {
-
+.nav-about a {
+	color: #333;
+	text-decoration: none;
 }
 
 img.profile {
