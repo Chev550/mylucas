@@ -3,6 +3,8 @@
 	width: 100%;
 	position: absolute;
 	z-index: 50;
+	background: url('/assets/img/bg4.jpg') center center;
+	background-size: cover;
 }
 .file {
 	width: 100px;

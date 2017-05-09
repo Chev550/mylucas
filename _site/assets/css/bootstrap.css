@@ -12,6 +12,8 @@ html {
 }
 body {
   margin: 0;
+  background: url('/assets/img/bg3.jpg') center center; 
+  background-size: cover;
 }
 article,
 aside,
