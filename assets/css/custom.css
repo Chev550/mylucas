@@ -115,7 +115,7 @@ nav {
 	background: white;
 }
 
-.dot {
+.btn-close {
 	border-radius: 50%;
 	padding: 0;
 	line-height: 1em;
@@ -123,31 +123,23 @@ nav {
 	height: 1.2em;
 }
 
-.left-bar {
-	border-right: 1px solid #ddd;
-}
 
-.side-nav {
-	margin-bottom: 0.5em;
-	padding: 0;
+.nav-about {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
-.side-nav li {
-	padding-left: 1em;
+.nav-about li {
+	display: inline-block;
 }
-.side-nav a {
-	color: #333;
-}
-.side-nav a:hover {
-	text-decoration: none;
-}
-.side-nav li:hover {
-	background-color: rgba(0,0,0,0.1);
+.nav-about > li.active > a {
+
 }
 
-
-
-
+img.profile {
+	border-radius: 50%;
+	margin: 2em;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL

@@ -1,67 +1,65 @@
 ---
-layout: default
-title: "about"
+layout: blank
+title: "About"
 ---
 
-<ul class="nav nav-tabs">
-	<li class="active">
-		<a href="#profile" data-toggle="tab" aria-expanded="false">profile</a>
-	</li>
+<div class="panel panel-default">
+	<div class="panel-heading center">
+		<span class="pull-left">
+			<a class="btn btn-xs btn-danger btn-close" href="{{ site.baseurl }}/">&#10008</a>
+		</span>
 
-	<li class="">
-		<a href="#timeline" data-toggle="tab" aria-expanded="false">timeline</a>
-	</li>
+		<ul class="nav-about">
+			<li class="active">
+				<a class="btn btn-xs btn-default" href="#profile" data-toggle="tab" aria-expanded="false">Profile</a>
+			</li>
 
-	<li class="">
-		<a href="#projects" data-toggle="tab" aria-expanded="false">projects</a>
-	</li>
+			<li class="">
+				<a class="btn btn-xs btn-default" href="#timeline" data-toggle="tab" aria-expanded="false">Timeline</a>
+			</li>
 
-	<li class="">
-		<a href="#education" data-toggle="tab" aria-expanded="false">education</a>
-	</li>
+			<li class="">
+				<a class="btn btn-xs btn-default" href="#projects" data-toggle="tab" aria-expanded="false">Projects</a>
+			</li>
 
-	<li class="">
-		<a href="#publications" data-toggle="tab" aria-expanded="false">publications</a>
-	</li>
+			<li class="">
+				<a class="btn btn-xs btn-default" href="#education" data-toggle="tab" aria-expanded="false">Education</a>
+			</li>
 
-	<li class="">
-		<a href="#contact" data-toggle="tab" aria-expanded="false">contact</a>
-	</li>
-</ul>
-
-
-
-
-<div id="myTabContent" class="tab-content">
-	<div class="tab-pane fade active in" id="profile">
-		<br>
-		{% include library/profile.html %}
+			<li class="">
+				<a class="btn btn-xs btn-default" href="#contact" data-toggle="tab" aria-expanded="false">Contact</a>
+			</li>
+		</ul>
 	</div>
 
-	<div class="tab-pane fade" id="timeline">
-		<br>
-		{% include library/timeline.html %}
-	</div>
+	<div class="panel-body">
+		<div id="myTabContent" class="tab-content">
+			<div class="tab-pane fade active in" id="profile">
+				{% include library/profile.html %}
+			</div>
 
-	<div class="tab-pane fade" id="projects">
-		<br>
-		{% include library/projects.html %}
-	</div>
+			<div class="tab-pane fade" id="timeline">
+				{% include library/timeline.html %}
+			</div>
 
-	<div class="tab-pane fade" id="publications">
-		<br>
-		{% include library/publications.html %}
-	</div>
+			<div class="tab-pane fade" id="projects">
+				{% include library/projects.html %}
+			</div>
 
-	<div class="tab-pane fade" id="education">
-		<br>
-		{% include library/education.html %}
-	</div>
+			<div class="tab-pane fade" id="publications">
+				{% include library/publications.html %}
+			</div>
 
-	<div class="tab-pane fade" id="contact">
-		<br>
-		<p><span class="glyphicon glyphicon-envelope"></span> lucas.li@sdchina.org.cn</p>
-		<p><span class="glyphicon glyphicon-phone"></span> +86 159-6224-2054</p>
-		<p><span class="glyphicon glyphicon-map-marker"></span> 6-3, SOHO II Tower A, Guanghua Road, Chaoyang District, Beijing, 100020</p>
+			<div class="tab-pane fade center" id="education">
+				{% include library/education.html %}
+			</div>
+
+			<div class="tab-pane fade center" id="contact">
+				<p><span class="glyphicon glyphicon-envelope"></span> lucas.li@sdchina.org.cn</p>
+				<p><span class="glyphicon glyphicon-phone"></span> +86 159-6224-2054</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span> 6-3, SOHO II Tower A, Guanghua Road, Chaoyang District, Beijing, 100020</p>
+			</div>
+		</div>
 	</div>
 </div>
+
