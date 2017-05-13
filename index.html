@@ -9,15 +9,13 @@ title: "official website"
 </head>
 
 <body>
+	{% include launchpad.html %}
+
 	<div class="cover">
 		<h3>lucas</h3>
-		<div class="coverNav">
-			<a href="{{ site.baseurl }}/about.html">about</a> /
-			<a href="{{ site.baseurl }}/blog/">blog</a> /
-			<a href="{{ site.baseurl }}/gallery.html">gallery</a>
-		</div>
+		<a href="{{ site.baseurl }}/about.html">about</a> /
+		<a href="{{ site.baseurl }}/blog/">blog</a> /
+		<a href="{{ site.baseurl }}/gallery.html">gallery</a>
 	</div>
-
-	{% include launchpad.html %}
 </body>
 </html>

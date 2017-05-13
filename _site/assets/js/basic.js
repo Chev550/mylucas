@@ -3,19 +3,19 @@
 function onFocus(x){
 	if (x.value == x.defaultValue){
 		x.value = '';
-		x.style.color = '#303030';
+		x.style.color = 'rgba(0, 0, 0, 0.8)';
 	}
 	else if (x.value != x.defaultValue){
-		x.style.color = '#303030';
+		x.style.color = 'rgba(0, 0, 0, 0.8)';
 	}
 }
 function onBlur(x){
 	if (x.value == ''){
 		x.value = x.defaultValue;
-		x.style.color = 'gray';
+		x.style.color = 'rgba(0, 0, 0, 0.4)';
 	}
 	else if (x.value != ''){
-		x.style.color = 'gray';
+		x.style.color = 'rgba(0, 0, 0, 0.4)';
 	}
 }
 
@@ -34,12 +34,9 @@ $(window).scroll(function() {
 
 
 // Hide and Show
-function show(){
-	$("#footer1").hide();
-	$("#footer2").show();
-	return false;
+function slideToggle(){
+	$("div.launchpad").slideToggle("");
 }
 function hide(){
-	$("#footer2").hide();
-	$("#footer1").show();
+	$("#launchpad").hide("");
 }

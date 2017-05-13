@@ -8,16 +8,6 @@
 	<div class="container clearance">
 		{% include header.html %}
 
-		<p class="small gray">
-			lucas &raquo; {{ page.title }}
-
-			{% if page.url contains 'blog' %}
-			<a class="pull-right" href="{{ site.baseurl }}/archive.html">archive</a>
-			{% endif %}
-		</p>
-
-		<br>
-
 		{{ content }}
 
 		{% include footer.html %}

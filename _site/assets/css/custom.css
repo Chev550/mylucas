@@ -1,35 +1,38 @@
-.launchpad {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-}
-.file {
-	display: inline-block;
-	padding: 5px 10px;
-	margin: 10px 20px;
-	font-size: 12px;
+header {
 	text-align: center;
-	cursor: pointer;
-	border-radius: 4px;
-	vertical-align: top;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-.file:hover {
-	background-color: rgba(255, 255, 255, 0.2);
-	border-color: #adadad;
+header h3 a:hover {
 	text-decoration: none;
-	color: white;
 }
-.file {
-	width: 100px;
-	color: white;
+header a {
+	color: #333;
+}
+header a:hover {
+	color: black;
+}
+
+
+footer {
+	color: gray;
+	text-align: center;
+	margin: 10px 0;
+}
+
+
+.launchpad {
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid rgba(0,0,0, 0.1);
+	background-color: rgba(0,0,0, 0.05);
 }
 input.search {
-	background-color: rgba(255, 255, 255, 0.2);
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	border-radius: 3px;
-	margin: 20px;
-	padding: 0 0.5em;
-	color: rgba(255, 255, 255, 0.7);
+	border: 1px solid rgba(0,0,0, 0.1);
+	margin: 30px 0;
+	padding: 0.1em 0.5em;
+	color: rgba(0,0,0, 0.4);
 }
 
 
@@ -40,25 +43,13 @@ input.search {
 .center {
 	text-align: center;
 }
-
 .normalWeight {
 	font-weight: normal;
 }
-.margin-auto {
-	margin: 0 auto;
-}
-
 .clearance {
 	margin-top: 20px;
 }
 
-
-.avatar {
-	width: 200px;
-	margin-right: 30px;
-	margin-bottom: 20px;
-	float: left;
-}
 
 .blogItem {
 	margin-bottom: 2em;
@@ -73,11 +64,7 @@ input.search {
 	color: #000;
 }
 
-footer {
-	color: gray;
-	text-align: center;
-	margin: 10px 0;
-}
+
 .footnotes {
 	margin-top: 2em;
 }
@@ -93,6 +80,7 @@ footer {
 	margin: 0;
 }
 
+
 svg {
 	width: 16px;
 	height: 16px;
@@ -106,8 +94,10 @@ a:hover path {
 }
 
 
-
-
+img.profile {
+	border-radius: 50%;
+	margin: 1em;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -127,19 +117,14 @@ a:hover path {
 	background-color: #777;
 }
 
-.house {
-	margin-bottom: 0;
-}
-
-
 
 /* contact
 -------------------------------------------------- */
 .contact input, 
 .contact textarea {
 	border: 0;
-	border-bottom: 1px dotted #ccc;
-	color: #ccc;
+	border-bottom: 1px dotted rgba(0,0,0, 0.4);
+	color: rgba(0,0,0, 0.4);
 	width: 100%;
 	display: block;
 	margin: 1em 0;
@@ -165,19 +150,8 @@ ol#playlist li {
 
 
 
-nav {
-	text-align: center;
-	text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-nav a {
-	color: #333;
-}
-nav a:hover {
-	color: #000;
-}
-nav h3 a:hover {
-	text-decoration: none;
-}
+
+
 /* cover
 -------------------------------------------------- */
 .cover {

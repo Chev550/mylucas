@@ -4,32 +4,18 @@ title: "about"
 ---
 
 <ul class="nav nav-tabs">
-	<li class="active">
-		<a href="#profile" data-toggle="tab" aria-expanded="false">profile</a>
-	</li>
+	<li class="active"><a href="#profile" data-toggle="tab" aria-expanded="false">profile</a></li>
 
-	<li class="">
-		<a href="#timeline" data-toggle="tab" aria-expanded="false">timeline</a>
-	</li>
+	<li class=""><a href="#timeline" data-toggle="tab" aria-expanded="false">timeline</a></li>
 
-	<li class="">
-		<a href="#projects" data-toggle="tab" aria-expanded="false">projects</a>
-	</li>
+	<li class=""><a href="#projects" data-toggle="tab" aria-expanded="false">projects</a></li>
 
-	<li class="">
-		<a href="#education" data-toggle="tab" aria-expanded="false">education</a>
-	</li>
+	<li class=""><a href="#publications" data-toggle="tab" aria-expanded="false">publications</a></li>
 
-	<li class="">
-		<a href="#publications" data-toggle="tab" aria-expanded="false">publications</a>
-	</li>
+	<li class=""><a href="#education" data-toggle="tab" aria-expanded="false">education</a></li>
 
-	<li class="">
-		<a href="#contact" data-toggle="tab" aria-expanded="false">contact</a>
-	</li>
+	<li class=""><a href="#contact" data-toggle="tab" aria-expanded="false">contact</a></li>
 </ul>
-
-
 
 
 <div id="myTabContent" class="tab-content">
@@ -53,15 +39,13 @@ title: "about"
 		{% include library/publications.html %}
 	</div>
 
-	<div class="tab-pane fade" id="education">
+	<div class="tab-pane fade center" id="education">
 		<br>
 		{% include library/education.html %}
 	</div>
 
 	<div class="tab-pane fade" id="contact">
 		<br>
-		<p><span class="glyphicon glyphicon-envelope"></span> lucas.li@sdchina.org.cn</p>
-		<p><span class="glyphicon glyphicon-phone"></span> +86 159-6224-2054</p>
-		<p><span class="glyphicon glyphicon-map-marker"></span> 6-3, SOHO II Tower A, Guanghua Road, Chaoyang District, Beijing, 100020</p>
+		{% include library/contact.html %}
 	</div>
 </div>
