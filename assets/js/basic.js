@@ -1,4 +1,3 @@
-/* Contact */
 // form style
 function onFocus(x){
 	if (x.value == x.defaultValue){
