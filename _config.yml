@@ -1,4 +1,4 @@
-title: Lucas
+title: lucas
 baseurl: /lucas
 markdown: kramdown
 gems: [jekyll-paginate]
