@@ -75,6 +75,24 @@ input.search {
 	margin-top: 1em;
 }
 
+.file {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	vertical-align: top;
+}
+.file:hover {
+	background-color: rgba(0,0,0,0.1);
+	border-color: rgba(0,0,0,0.1);
+	text-decoration: none;
+}
+.file {
+	width: 120px;
+}
+
 svg {
 	width: 16px;
 	height: 16px;
