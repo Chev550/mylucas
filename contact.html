@@ -1,0 +1,17 @@
+---
+layout: default
+title: "contact"
+---
+
+
+<form class="contact" action="https://getsimpleform.com/messages?form_api_token=b10b1b8cad91f620c680b72855bffddf" method="post">
+	<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+	<input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/lucas/sent.html' />
+
+	<!-- all your input fields here.... -->
+	<input type="text" name="Subject" value="Subject" onfocus="onFocus(this)" onblur="onBlur(this)">
+	<input type="email" name="Email" value="Email" onfocus="onFocus(this)" onblur="onBlur(this)">
+	<textarea name="Message" value="Message" onfocus="onFocus(this)" onblur="onBlur(this)">Message</textarea>
+
+	<button type="submit" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-send"></span> Send</button>
+</form>

@@ -1,6 +1,5 @@
 header {
 	text-align: center;
-	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 header h3 a:hover {
 	text-decoration: none;
@@ -97,6 +96,25 @@ a:hover path {
 img.profile {
 	border-radius: 50%;
 	margin: 1em;
+}
+
+
+.nav-about {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav-about li {
+	display: inline-block;
+}
+.nav-about a {
+	color: #333;
+	text-decoration: none;
+}
+
+img.profile {
+	border-radius: 50%;
+	margin: 2em;
 }
 
 
