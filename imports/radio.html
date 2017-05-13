@@ -1,31 +1,30 @@
 ---
 layout: default
-title: "Radio"
+title: "radio"
 ---
 
 <form>
 	<p>
-		Channel
-		<select id="channel">
+		channel
+		<select id="channel" onchange="go(this)">
 			<option value="977todayshits">977 - Today's Hits</option>
-			<!--option value="bbcworldservice">BBC World Service</option-->
+			<option value="bbcworldservice">BBC World Service</option>
 		</select>
 		<!--input type="submit" class="btn btn-xs btn-default" value="Go"-->
 	</p>
 </form>
 
 
-
-
+<div id="radio-player">
 <script>
 (function(d, s){if(!window.rel){s = d.createElement("script");s.type = "text/javascript";s.async = true;s.id = "radio-de-embedded";s.src = "//www.radio.net/inc/microsite/js/full.js";d.getElementsByTagName("head")[0].appendChild(s);window.rel = true;}}(document));
 </script>
 
 <div class="ng-app-embedded">
-	<div id="player" ui-view class="microsite embedded-radio-player" data-playerwidth="100%" data-playertype="web_embedded" data-playstation="" data-autoplay="true" data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+	<div id="player" ui-view class="microsite embedded-radio-player" data-playerwidth="100%" data-playertype="web_embedded" data-playstation="" data-autoplay="faulse" data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
 	</div>
 </div>
-
+</div>
 
 
 
@@ -38,6 +37,7 @@ var index = channel.selectedIndex;
 var station = channel.options[index].value;
 var playstation = document.getElementById("player");
 playstation.setAttribute("data-playstation", station);
+document.getElementById("test").innerHTML=station;
 
 function go(x) {
 	var index = x.selectedIndex;
