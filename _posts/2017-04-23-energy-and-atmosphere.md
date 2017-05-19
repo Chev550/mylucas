@@ -5,15 +5,6 @@ tags:
 - leed
 ---
 
-#### EA Credit: Green power and carbon offsets
-
-__Intent__
-
-To encourage the reduction of greenhouse gas emissions through the use of grid-source, renewable energy technologies and carbon mitigation projects.
-
-
-
----
 
 #### Building loads
 
