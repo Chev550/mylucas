@@ -107,9 +107,11 @@ a:hover path {
 
 
 /* about ====================================================== */
-img.profile {
-	border-radius: 50%;
+.profile {
 	margin: 1em;
+}
+.profile img {
+	margin-bottom: 0.5em;
 }
 
 ul.timeline {
